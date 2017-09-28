@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>P1 Project Requirements</title>
+        <style type="text/css">
+          body {
+              background-color: #F8F9FC;
+          }
+          article {
+              width: 600px;
+              margin: auto;
+              padding: 30px;
+              background-color:#33596b;
+              text-align: justify;
+          }
+          h1 {
+              font-size: 2em;
+              font-variant-caps: petite-caps;
+          }
+          h2 {
+              font-size: 0.9em;
+            }
+
+          h3 {
+              font-size: 0.7em
+              }
+          hr {
+              display: block;
+              height: 1px;
+              border: 0;
+              border-top: 1px solid #c68a19;
+              margin: 1em 0;
+              padding: 0;
+              }
+
+          p, ul {
+              font-size: 15px;
+              line-height: 150%;
+          }
+          a:link {
+            text-decoration: none;
+            color: #c68a19;
+          }
+
+          a:visited{
+            color: #c68a19;
+          }
+          a:hover{
+            color: #a53891;
+          }
+          a:active{
+            text-decoration: underline;
+          }
+
+          p, ul, h1, h2, h3, h4 {
+              color: #F8F9FC;
+              font-family: "average", sans-serif;
+          }
+
+            ul {
+            list-style-type: circle;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1>P1 project requirements</h1>
+                <h2>Hilmar, Henrik, Ida og Magnus (HHIM)</h2>
+                <h3>September 20, 2017</h3>
+            </header>
+            <hr>
+            <section>
+                <p>Vi har valgt å jobbe med Sportscenteret, en sport- og friluftslivbutikk lokalisert i
+                  Longyearbyen på Svalbard. Butikkens eier heter Stig Erik Kristiansen og vi vil være i
+                  direkte kontakt med han gjennom hele prosessen. Butikken er godt kjent i byen og selve
+                  lokalet ønsker å bære en personlig og jovial stil. Sportscenteret har allerede en nettside
+                  (les:<a href="http://www.sportscenteret.no/" target="_blank" >http://www.sportscenteret.no/</a>),
+                  men ønsker å forkaste denne til fordel for en helt ny og mer brukervennlig side. Her er et utklipp
+                  av den gamle nettsiden (her må vi ha referanse)
+                </p>
+                <img src="old_webpage.png" alt="Old Page" style="width: 595px;">
+                <p> ref: Bildet er hentet fra startssiden til www.sportcenteret.no
+                </p>
+                <p>KLIENTENS ULTIMATE MÅL med nettsiden er flere besøkende i den fysiske butikken. Han vil også at
+                  siden skal fungere som en hjelp for besøkende på Svalbard slik at de lett får med seg lover og
+                  regler som gjelder på øygruppen. Selv om butikken livnærer seg på salg av produkter, ønsker ikke
+                  klienten noe av dette på sin nettside. Siden vil derfor kun inneholde informativ tekst om butikken
+                  og hva som tilbys der, og videre informasjon om forskjellige severdigheter, normer og regler på Svalbard.
+                  Det vil også være viktig å skille informasjon om den fysiske butikken fra tips og råd om Svalbard, da det
+                  lett kan oppfattes som påtrengende og utrygt for besøkende å notere seg råd fra noen som prøver å selge
+                  dem noe. Meningen med siden er å med andre ord å gi besøkende et positivt og trygt inntrykk av både butikken
+                  og stedet ved å gjøre informasjonen lett tilgjengelig.
+                </p>
+
+                <p>MÅLGRUPPEN vil hovedsakelig bestå av mennesker som er på utkikk etter informasjon om sportsutstyr i
+                  forbindelse med Svalbard. Det er derfor grunn til å tro at besøkende på siden i utgangspunktet vil
+                  være på utkikk etter utstyr og ikke turistinformasjon. Turister som er ute etter generell info vil
+                  trolig da oppsøke reisebyråer for dette. På bakgrunn av disse antagelsene, vil sannsynligvis målgruppen
+                  bestå av sportsinteresserte. Det kan være enslige, familier, voksene og ungdommer. Segmentering på bakgrunn
+                  av demografi vil derfor vise seg vanskelig da sportsinteresserte finnes i alle kjønn og aldere. Det vil derimot
+                  være fordelaktig å segmentere på bakgrunn av interesse. Målgruppa vil trolig bestå av eventyrlige og
+                  sportsinteresserte mennesker som liker å komme forberedt. Det kan være mennesker med mye erfaring, så vel som
+                  dem uten noe i det hele tatt. Klienten nevner at han ønsker at siden skal appellere til andre en de typiske
+                  ”masseturistene” og vil derfor at siden skal bli lagt opp annerledes enn diverse turoperatører som fokuserer
+                  mye på salg. Det er god grunn til å tro at samtlige besøkende på siden planlegger en tur, har bestilt tur
+                  eller er på Svalbard i søkende stund.
+                </p>
+
+                 <p>VÅR KLIENT KREVER at nettstedet skal oppgi konkret og informativ informasjon om butikken og hva
+                    de tilbyr. Mer spesifikt skal sidene inneholde informasjon om <a href="#kontaktinfo">kontaktinfo</a>, åpningstid,
+                    <a href="#våpen">våpen</a>, historie om Svalbard, <a href="#leverandører">leverandører</a>, <a href="#info">info om Svalbard</a>
+                    og <a href="#samarbeidspartnere">samarbeidspartnere</a>. For klienten er det ikke viktig at siden hans inneholder lange tekster
+                    med informasjon, men heller kortere sammendrag og deretter linker til mer informasjon for dem som måtte
+                    trenge det.
+                 </p>
+                 <ul>
+                      <li id="kontaktinfo">Kontaktinfo: her vil klienten ha et kontaktskjema hvor brukere kan sende inn spørsmål på mail.
+                        Det skal være enkelt og oversiktlig å komme inn på kontaktinfo ved nettstedets startside.
+                      </li>
+                      <li id="våpen">Våpen:  Praktisk informasjon om våpen der han også oppgir hvilke produkter butikken hans kan
+                        tilby i forhold til dette. Det er imidlertid også viktig for vår klient at dette ikke oppfattes
+                        som påtrengende salg, men heller en pekepinn til hvilke muligheter som finnes. Klienten foreslår
+                        også å linke videre til andre sider det står mer informasjon om andre produkter han kanskje ikke
+                        tilbyr i sin butikk, men som kan være behjelpelige under besøket. Dette for at at besøkende
+                        oppfatter han og informasjonen han gir, som nøytral og pålitelig.
+                      </li>
+                      <li id="leverandører">Leverandører: det skal være bilder av logoene til de forskjellige leverandørene til butikken.
+                        Disse skal det linkes til.
+                      </li>
+                      <li id="info">Info om Svalbard: nettsiden opplyser om lover og regler for ferdsel på Svalbard og nyttige tips
+                        til hvordan man skal komme seg rundt
+                      </li>
+                      <li id="samarbeidspartnere">Samarbeidspartnere: ha de guide- og turoperatørene som han samarbeider med og litt informasjon
+                        om disse. Dette skal gjøres med beskrivende tekst, enkle bilder og link videre til hver av disse.
+                      </li>
+                  </ul>
+                  <p>KLIENTEN ØNSKER å gi oss stor frihet når det kommer til utforming av den grafiske profilen. Når det
+                    kommer til funksjonalitet har vår klient kommet med forespørsler om å ha en dynamisk åpningstid som
+                    viser om butikken er åpen når man er på siden. Da det er internasjonale turister som besøker Svalbard,
+                    ønsker klienten at brukere av siden skal ha mulighet til å endre språk mellom norsk og engelsk.
+                    Til slutt er det også et ønske om en interaktiv kartfunksjon som gir brukeren mulighet til å navigere rundt
+                    butikken for å få en oversikt over omgivelsene.
+                  </p>
+
+                  <p>Disse funksjonene (sammen med <a href="#kontaktinfo">kontaktskjemaet</a>) ser vi i skrivende stund for oss være
+                    realistiske å få til innenfor rammene av emnets pensum. Det vil dog vise seg underveis hvorvidt alle
+                    disse ønskene er gjennomførbare ut ifra vårt kunnskapsnivå ved semesterslutt. Det var også et ønske fra
+                    klienten om å kunne redigere info selv i etterkant av prosjektet, men dette ser vi på som for komplekst
+                    med tanke på tidsramme og emnets innhold. Det er foreløpig uvisst hvordan klienten planlegger å opprettholde
+                    nettsiden etter prosjektets slutt. Dette vil være noe klienten finner ut av før innlevering.
+                  </p>
+
+        </section>
+        </article>
+    </body>
+</html>
