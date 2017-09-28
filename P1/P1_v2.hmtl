@@ -11,7 +11,7 @@
               width: 600px;
               margin: auto;
               padding: 30px;
-              background-color:#33596b;
+              background-color:#d9dcdd;
               text-align: justify;
           }
           h1 {
