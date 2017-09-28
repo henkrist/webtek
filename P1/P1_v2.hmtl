@@ -5,13 +5,13 @@
         <title>P1 Project Requirements</title>
         <style type="text/css">
           body {
-              background-color: #F8F9FC;
+              background-color: #33596b;
           }
           article {
               width: 600px;
               margin: auto;
               padding: 30px;
-              background-color:#33596b;
+              background-color:#F8F9FC;
               text-align: justify;
           }
           h1 {
@@ -54,7 +54,7 @@
           }
 
           p, ul, h1, h2, h3, h4 {
-              color: #F8F9FC;
+              color: #353638;
               font-family: "average", sans-serif;
           }
 
@@ -78,7 +78,7 @@
                   lokalet ønsker å bære en personlig og jovial stil. Sportscenteret har allerede en nettside
                   (les:<a href="http://www.sportscenteret.no/" target="_blank" >http://www.sportscenteret.no/</a>),
                   men ønsker å forkaste denne til fordel for en helt ny og mer brukervennlig side. Her er et utklipp
-                  av den gamle nettsiden (her må vi ha referanse)
+                  av den gamle nettsiden:
                 </p>
                 <img src="old_webpage.png" alt="Old Page" style="width: 595px;">
                 <p> ref: Bildet er hentet fra startssiden til www.sportcenteret.no
