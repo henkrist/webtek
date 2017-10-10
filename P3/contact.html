@@ -1,1 +1,63 @@
 
+<!doctype html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="a page about SportsCenteret">
+        <title>History</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
+    </head>
+    <body>
+        
+        <header>
+            <img id="logo" src="img/logo.png" alt="logo" /> <!--logoen til SportsCenteret / ikke ferdig-->
+            
+            <!-- div for kontaktknapp -->
+            <div id="contact_button">KONTAKT</div>
+            
+            <!-- Øverste del av nav.bar-->        
+            <ul class="nav">
+                <li><a href="">SPORTSCENTERET</a></li>
+                <li><a href="">SVALBARD</a></li>
+            </ul>
+            <!-- De to menyene som dukker opp under hodemenyen -->
+            <ul class="nav" id="under_nav_1">
+                <li><a href="">Om oss</a></li>
+                <li><a href="">Våpenleie og regler</a></li>
+                <li><a href="">Historie</a></li>
+                <li><a href="">Leverandører</a></li>
+            </ul>
+            <ul class="nav" id="under_nav_2">
+                <li><a href="">Info om Svalbard</a></li>
+                <li><a href="">Samarbeidspartenere</a></li>
+            </ul>
+
+        </header>
+
+ <!-- Insert contact scheme here -->
+      
+      <form  id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <fieldset>
+        <legend> Contact us! </legend>
+        <div class ="row" id="name">
+          <input type="text" class="input" name="name" placeholder="Full name" size="30" required>
+        </div>
+        <div class="row" id="email">
+          <input type="email" class="input" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="row">
+	        	<textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here!"> </textarea>
+	      </div>
+	      <input id="submit_button" type="submit" value="Send email" />
+      </fieldset>
+      </form>
+      
+ <!-- Inserte map function here -->
+	    
+        <footer>
+            <p>Created by HHIM</p>
+        </footer>
+    </body>
+     <script src="script.js"></script>
+</html>
