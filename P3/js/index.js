@@ -1,4 +1,5 @@
-<script>
+//slideshow script
+/*
 var myIndex = 0;
 carousel();
 
@@ -13,6 +14,22 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 9000);    
 }
-</script>
+*/
 
-//slideshow script
+//Nav.bar script
+
+function toggle_meny(nav_name){
+    var nav_bar = document.getElementById(nav_name);
+    
+    if(nav_bar.style.display === "block"){
+        nav_bar.style.display = "none";
+    }
+    else{
+        nav_bar.style.display = "block";
+    }
+}
+
+function close_meny(nav_name){
+    var nav_bar = document.getElementById(nav_name);
+    nav_bar.style.display = "none";
+}
