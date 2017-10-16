@@ -4,6 +4,8 @@ body {
     padding: 0px;
 }
 
+/*                    Header                            */
+
 header{
     width: 80%;
     padding: 1% 10% 0% 10%;
@@ -12,32 +14,66 @@ header{
     
 }
 
-/*   Nav.bar    */
+/*Syle for kontakt-knappen*/
+#contact_button{
+    background-color:  #b2722a;
+    margin: 0px 0px 20px 10px;
+    float: right;
+    border-radius: 10px;
+}
 
+#contact_button a{
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #f3f3f5;
+}
+
+
+
+/*                      Nav.bar                   */
+
+/*Fjerner alle predefinerte instillinger på listen*/
 ul.nav{
+    width: 100%;
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
 
+/*Bakgrunnsfarge på nav.bar */
 ul.nav li{
     background-color: #1c3f26;
     float: right;
 }
 
+/*Endre musikonet til å immitere en link*/
+#li_1,#li_2{
+    cursor:pointer;
+}
+
+/*Endre fargen til under nav.bar til orange*/
+ul#under_nav_1 li, ul#under_nav_2 li {
+    background-color: #b2722a; 
+}
+
+/*Link i li elementene*/
 ul.nav li a{
     display: block;
     color: #f3f3f5;
     text-align: center;
-    padding: 15px 10px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
+/*Skjuler de to undermenyene*/
 #under_nav_1, #under_nav_2{
-    display: none;
+    display: none; 
 }
 
+/*endrer hoverfargen*/
 ul.nav li a:hover:not(.active) {background-color: #b2722a;}
 
 ul.topnav li a.active {background-color: #b2722a;}
