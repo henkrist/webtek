@@ -22,12 +22,23 @@ header{
     border-radius: 10px;
 }
 
+/*Mer tyling av kontaktknappen*/
 #contact_button a{
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     display: block;
     color: #f3f3f5;
+}
+
+/*Endrer fargen på skriften i kontaktknappen når man hovrer over den.*/
+#contact_button a:hover{
+    color:#1c3f26;
+}
+
+/*Setter størrelsen på logoen. */
+#logo{
+    width: 35%;
 }
 
 
@@ -59,6 +70,11 @@ ul#under_nav_1 li, ul#under_nav_2 li {
     background-color: #b2722a; 
 }
 
+/*Endre fargen på skriften i undernav.bar til grå når man har musa over den.*/
+ul#under_nav_1 li a:hover, ul#under_nav_2 li a:hover{
+    color: #1c3f26; 
+}
+
 /*Link i li elementene*/
 ul.nav li a{
     display: block;
@@ -74,15 +90,16 @@ ul.nav li a{
 }
 
 /*endrer hoverfargen*/
-ul.nav li a:hover:not(.active) {background-color: #b2722a;}
+ul.nav li a:hover {background-color: #b2722a;}
 
-ul.topnav li a.active {background-color: #b2722a;}
-
+/*Dette gjør nav.bar og resten av siden responsive. Setter at den går over til mobil-modus når skjermstørrelsen er mindre enn 600px. */
 @media screen and (max-width: 600px){ 
     ul.nav li {float: none;}
 }
 
 /*Nav.bar slutt*/
+
+
 
 /*Interactive map */
 #map {
