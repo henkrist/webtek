@@ -83,3 +83,10 @@ ul.topnav li a.active {background-color: #b2722a;}
 }
 
 /*Nav.bar slutt*/
+
+/*Interactive map */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
