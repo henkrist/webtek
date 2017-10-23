@@ -9,3 +9,5 @@ function initMap() {
     position: uluru,
     map: map
 });
+  async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfANh0pOzgZE2_7V08uR-Zsx8lq_O7w1s&callback=initMap">
