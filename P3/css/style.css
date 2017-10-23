@@ -98,12 +98,35 @@ ul.nav li a:hover {background-color: #b2722a;}
 }
 
 /*Nav.bar slutt*/
-
-
-
-/*Interactive map */
-#map {
-    height: 400px;
-    width: 100%;
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background: grey;
 }
+
+
+
+/*CONTACT PAGE */
+#map {
+    height: 300px;
+    width: 30%;
+    right: 30px;
+    float: right;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+h3 {
+    text-align: right;
+    padding: 20px;
+}
+#contact_form{
+    width: 30%;
+    float: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
 
