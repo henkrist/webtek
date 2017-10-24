@@ -98,6 +98,7 @@ ul.nav li a:hover {background-color: #b2722a;}
 }
 
 /*Nav.bar slutt*/
+
 footer {
     position:absolute;
     bottom:0;
@@ -116,15 +117,13 @@ footer {
     float: right;
     padding-top: 5%;
     padding-right: 5%;
+    margin-top: 40px;
 }
-h3 {
-    text-align: right;
-    padding: 20px;
-}
+
 #contact_form{
     width: 30%;
     float: left;
-    padding-top: 5%;
+    padding-top: 40px;;
     padding-left: 5%;
 }
 

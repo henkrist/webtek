@@ -41,13 +41,24 @@
                 <fieldset>
                     <legend> Contact us! </legend>
                     <div class ="row" id="name">
-                    <input type="text" class="input" name="name" placeholder="Full name" size="30" required>
+                    <label for="fname">Full name</label><br>
+                    <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
                     </div>
+                    <label for="email">Email</label><br>
                     <div class="row" id="email">
-                    <input type="email" class="input" name="email" placeholder="Your Email" required>
+                    <input type="email" class="input" name="email" placeholder="Your email..." required>
                     </div>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="" disabled selected>Select your inquiry</option>
+                        <option value="order">Ordering a product</option>
+                        <option value="complaint">Warranty and other complaints</option>
+                        <option value="rent">Renting a weapon</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="message">What's up?</label>
                     <div class="row">
-                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here!"> </textarea>
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
                     </div>
                     <input id="submit_button" type="submit" value="Send email" />
                 </fieldset>
@@ -55,9 +66,6 @@
 
             <!-- Inserte map function here -->
 
-            <div id="map_title" >
-                <h3>Google map</h3>
-            </div>
             <div id="map"></div>
 
         </div>
