@@ -151,4 +151,14 @@ input[type=submit]:hover {
     margin-left: 5%;
 }
 
+/*SUPPLIES PAGE*/
+.supplies_a{
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+}
 
+.supplies_a img{
+    width: 100%;
+}
+/*Supplies end*/
