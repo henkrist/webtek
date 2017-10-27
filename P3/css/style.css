@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /*                    Header                            */
@@ -29,6 +30,7 @@ header{
     text-align: center;
     display: block;
     color: #f3f3f5;
+    transition: all 0.3s ease 0s;
 }
 
 /*Endrer fargen på skriften i kontaktknappen når man hovrer over den.*/
@@ -100,10 +102,11 @@ ul.nav li a:hover {background-color: #b2722a;}
 /*Nav.bar slutt*/
 
 footer {
-    position:absolute;
-    bottom:0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
     width:100%;
-    height:60px;
     background: grey;
 }
 
@@ -131,7 +134,7 @@ input[type=text], input[type=email], select, textarea {
     resize: vertical;
 }
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #b2722a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -139,7 +142,8 @@ input[type=submit] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #734f1e;
+    transition: all 0.3s ease 0s;
 }
 #contact_form {
     border-radius: 5px;
@@ -149,6 +153,14 @@ input[type=submit]:hover {
     float: left;
     margin-top: 40px;
     margin-left: 5%;
+    margin-bottom: 60px;
+}
+#header_contact{
+    margin-top:40px;
+    margin-left:5%;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:#b2722a;
 }
 
 /*SUPPLIES PAGE*/
