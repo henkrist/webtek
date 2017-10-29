@@ -163,6 +163,28 @@ input[type=submit]:hover {
     color:#b2722a;
 }
 
+#adress{
+    position: fixed;
+    left: 63.5%;
+    top:76%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+#adress_title{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+
+}
+#horline_adress {
+    padding: 0;
+    border-radius: 5px;
+    border-width:thin;
+    border-style:outset; 
+}
+
+
 /*SUPPLIES PAGE*/
 .supplies_a{
     float: left;
