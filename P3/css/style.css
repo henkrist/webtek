@@ -23,7 +23,7 @@ header{
     border-radius: 10px;
 }
 
-/*Mer tyling av kontaktknappen*/
+/*Mer styling av kontaktknappen*/
 #contact_button a{
     padding: 10px 20px;
     text-decoration: none;
@@ -84,6 +84,7 @@ ul.nav li a{
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 /*Skjuler de to undermenyene*/
@@ -125,12 +126,8 @@ footer {
 /*CONTACT PAGE */
 #map {
     height: 300px;
-    width: 30%;
-    right: 30px;
-    float: right;
-    padding-top: 5%;
-    padding-right: 5%;
-    margin-top: 40px;
+    width: 100%;
+    float: left;
 }
 
 input[type=text], input[type=email], select, textarea {
@@ -203,7 +200,12 @@ input[type=submit]:hover {
     float: left;
 }
 
-.supplies_a img{
+.supplies_div img{
     width: 100%;
+}
+
+.supplies_div img:hover{
+    width: 99%;
+    transition: all 0.3s ease 0s;
 }
 /*Supplies end*/
