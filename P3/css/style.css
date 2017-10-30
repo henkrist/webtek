@@ -101,6 +101,16 @@ ul.nav li a:hover {background-color: #b2722a;}
 
 /*Nav.bar slutt*/
 
+
+
+/*Class Content: Delen på siden hvor alt innholdet skal.*/
+.content{
+    width: 80%;
+    margin: 30px auto 20px auto;
+}
+
+
+/*Footer*/
 footer {
     position:fixed;
     left:0px;
