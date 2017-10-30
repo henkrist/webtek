@@ -196,10 +196,11 @@ input[type=submit]:hover {
 
 
 /*SUPPLIES PAGE*/
-.supplies_a{
-    float: left;
-    margin-left: 10px;
+.supplies_div{
+    height: 160px;
     width: 200px;
+    margin: 10px 10px;
+    float: left;
 }
 
 .supplies_a img{
