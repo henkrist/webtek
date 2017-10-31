@@ -41,43 +41,69 @@
             <div id="map"></div>
             
             <h3 id="header_contact">Find us!</h3>
-            <!-- Contact scheme -->
-            <form  id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            
+            
+            <div class="row">
                 
-                    <!-- <legend> Contact us! </legend> -->
-                    <div class ="row" id="name">
-                    <label for="fname">Full name</label><br>
-                    <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                <div class="column">
+            <!-- Contact scheme -->
+                    <form  id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                            <div class ="row" id="name">
+                            <label for="fname">Full name</label><br>
+                            <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                            </div>
+                            <label for="email">Email</label><br>
+                            <div class="row" id="email">
+                            <input type="email" class="input" name="email" placeholder="Your email..." required>
+                            </div>
+                            <label for="subject">Subject</label><br>
+                            <select id="subject" name="subject">
+                                <option value="" disabled selected>Select your inquiry</option>
+                                <option value="order">Ordering a product</option>
+                                <option value="complaint">Warranty and other complaints</option>
+                                <option value="rent">Renting a weapon</option>
+                                <option value="other">Other</option>
+                            </select><br>
+                            <label for="message">What's up?</label>
+                            <div class="row">
+                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
+                            </div>
+                            <input id="submit_button" type="submit" value="Send email" />
+                    </form>
+                </div>
+                
+            <!-- Insert opening hours -->               
+                <div class="column">
+                    <div id="hours">
+                            <p id="hours_title"> Opening hours <br> </p> <hr id="horline_adress">
+                            <p id="hours_content">
+                                <table style="width:100%">
+                                <tr>
+                                    <td>Mandag-Fredag</td>
+                                    <td>          10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Lørdag</td>
+                                    <td>          10:00 - 14:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Søndag</td>
+                                    <td>          Stengt</td>
+                                </tr>
+                            </table>
+                            </p>
                     </div>
-                    <label for="email">Email</label><br>
-                    <div class="row" id="email">
-                    <input type="email" class="input" name="email" placeholder="Your email..." required>
+                </div>
+                    
+             <!-- Adress -->                
+                <div class="column">
+                    <div id="adress">
+                        <p id="adress_title"> Adress <br> </p> <hr id="horline_adress">
+                        <p id="adress_content">Sportscenteret Svalbard AS <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
+                        </p>
                     </div>
-                    <label for="subject">Subject</label><br>
-                    <select id="subject" name="subject">
-                        <option value="" disabled selected>Select your inquiry</option>
-                        <option value="order">Ordering a product</option>
-                        <option value="complaint">Warranty and other complaints</option>
-                        <option value="rent">Renting a weapon</option>
-                        <option value="other">Other</option>
-                    </select><br>
-                    <label for="message">What's up?</label>
-                    <div class="row">
-                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
-                    </div>
-                    <input id="submit_button" type="submit" value="Send email" />
-               
-            </form>
-
-            
-    
-            <div id="adress">
-                <p id="adress_title"> Adress <br> </p> <hr id="horline_adress">
-                <p id="adress_content">Sportscenteret Svalbard AS <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
-                </p>
+                </div>
             </div>
-            
-
         </div>
        
         <footer>

@@ -156,7 +156,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 30%;
+    width: 80%;
     float: left;
     margin-top: 40px;
     margin-left: 5%;
@@ -169,21 +169,35 @@ input[type=submit]:hover {
     margin-bottom: 0;
     color:#b2722a;
 }
+.content{
+    box-sizing: border-box;
+}
+.column{
+    float:left;
+    width: 32%;
+    padding: 5px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-#adress{
-    position: fixed;
-    left: 63.5%;
-    top:76%;
+#adress,#hours{
+    margin-top: 40px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    width: 90%;
 }
-#adress_title{
+#adress_title, #hours_title{
     font-size: 20px;
     margin: 0;
     text-align: center;
 
 }
+
 #horline_adress {
     padding: 0;
     border-radius: 5px;
