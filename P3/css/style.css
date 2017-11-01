@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /*                    Header                            */
@@ -22,13 +23,14 @@ header{
     border-radius: 10px;
 }
 
-/*Mer tyling av kontaktknappen*/
+/*Mer styling av kontaktknappen*/
 #contact_button a{
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     display: block;
     color: #f3f3f5;
+    transition: all 0.3s ease 0s;
 }
 
 /*Endrer fargen på skriften i kontaktknappen når man hovrer over den.*/
@@ -82,6 +84,7 @@ ul.nav li a{
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 /*Skjuler de to undermenyene*/
@@ -101,11 +104,129 @@ ul.nav li a:hover {background-color: #b2722a;}
 
 
 
-/*Interactive map */
+/*Class Content: Delen på siden hvor alt innholdet skal.*/
+.content{
+    width: 80%;
+    margin: 30px auto 20px auto;
+}
+
+
+/*Footer*/
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background: grey;
+}
+
+
+
+/*CONTACT PAGE */
 #map {
-    height: 400px;
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #b2722a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #734f1e;
+    transition: all 0.3s ease 0s;
+}
+#contact_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
+#header_contact{
+    margin-top:40px;
+    margin-left:5%;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:#b2722a;
+}
+.content{
+    box-sizing: border-box;
+}
+.column{
+    float:left;
+    width: 32%;
+    padding: 5px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#adress,#hours{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 90%;
+}
+#adress_title, #hours_title{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+
+}
+
+#horline_adress {
+    padding: 0;
+    border-radius: 5px;
+    border-width:thin;
+    border-style:outset; 
+}
+
+
+/*SUPPLIES PAGE*/
+.supplies_div{
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.supplies_div img{
     width: 100%;
 }
+
+<<<<<<< HEAD
+
+=======
+.supplies_div img:hover{
+    width: 99%;
+    transition: all 0.3s ease 0s;
+}
+/*Supplies end*/
+>>>>>>> aef5f736fc8696df8c860866626aa82c0717db8d
 
 /*Slideshow start */
 .slides {
@@ -115,4 +236,4 @@ ul.nav li a:hover {background-color: #b2722a;}
 .slides:not(:first-child) {
     display: none;
 }
-/*Slideshow end */
+/*Slideshow end*/
