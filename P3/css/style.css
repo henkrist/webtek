@@ -242,6 +242,11 @@ input[type=submit]:hover {
     clear: both;
 }
 
+#pictures_history{
+    margin-left: 10%;;
+    
+}
+
 
 /*SUPPLIES PAGE*/
 .supplies_div{

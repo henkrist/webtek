@@ -46,7 +46,7 @@
                 
                 <div class="column_contact">
             <!-- Contact scheme -->
-                    <form  id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <form  id="contact_form" action="/form/my-form" method="POST" enctype="multipart/form-data">
                             <div class ="row" id="name">
                             <label for="fname">Full name</label><br>
                             <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
@@ -69,12 +69,13 @@
                             </div>
                             <input id="submit_button" type="submit" value="Send email" />
                     </form>
-                </div>
+                </div> <!-- column_contact -->
                 
             <!-- Insert opening hours -->               
                 <div class="column_contact" id="small_box">
                     <div id="hours">
-                            <p id="hours_title"> Opening hours <br> </p> <hr id="horline_adress">
+                            <p id="hours_title"> Opening hours <br> </p>
+                            <hr id="horline_adress">
                             <p id="hours_content">
                                 <table style="width:100%">
                                 <tr>
@@ -91,19 +92,19 @@
                                 </tr>
                             </table>
                             </p>
-                    </div>
-                </div>
+                    </div> <!--hours-->
+                </div> <!--Column contact-->
                     
              <!-- Adress -->                
-                <div class="column_contact" id="small_box">
+        <div class="column_contact" id="small_box">
                     <div id="adress">
                         <p id="adress_title"> Adress <br> </p> <hr id="horline_adress">
                         <p id="adress_content">Sportscenteret Svalbard AS <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> <!-- Row_content -->
+        </div> <!--Content-->
        
         <footer>
             <p>Created by HHIM</p>

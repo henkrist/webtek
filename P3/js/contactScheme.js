@@ -1,8 +1,8 @@
 
 function validateForm(){
-  var formInsert ==  document.forms["myFrom"]["fname"].vlaue
+  var formInsert ==  document.forms["myFrom"]["fname"].value
   if (formInsert == "" || formInsert == " ") {
-    alert("Name has to be fuilled out");
+    alert("Name has to be filled out");
     return false;
   }
 }
