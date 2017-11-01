@@ -233,6 +233,10 @@ input[type=submit]:hover {
     width: 100%;
 }
 
+.contentSlideshow {
+    margin: 0px;
+}
+
 .slides:not(:first-child) {
     display: none;
 }
