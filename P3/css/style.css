@@ -226,8 +226,22 @@ input[type=submit]:hover {
     width: 100%;
 }
 
+<<<<<<< HEAD
+
+=======
 .supplies_div img:hover{
     width: 99%;
     transition: all 0.3s ease 0s;
 }
 /*Supplies end*/
+>>>>>>> aef5f736fc8696df8c860866626aa82c0717db8d
+
+/*Slideshow start */
+.slides {
+    width: 100%;
+}
+
+.slides:not(:first-child) {
+    display: none;
+}
+/*Slideshow end*/
