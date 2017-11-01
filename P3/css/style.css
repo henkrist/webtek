@@ -12,7 +12,7 @@ header{
     padding: 1% 10% 0% 10%;
     background-color:#f3f3f5;
     height: auto;
-    
+    margin-bottom: 50px;
 }
 
 /*Syle for kontakt-knappen*/
@@ -90,6 +90,8 @@ ul.nav li a{
 /*Skjuler de to undermenyene*/
 #under_nav_1, #under_nav_2{
     display: none; 
+    position:absolute;
+    margin-left: -20%;
 }
 
 /*endrer hoverfargen*/
@@ -98,6 +100,7 @@ ul.nav li a:hover {background-color: #b2722a;}
 /*Dette gjør nav.bar og resten av siden responsive. Setter at den går over til mobil-modus når skjermstørrelsen er mindre enn 600px. */
 @media screen and (max-width: 600px){ 
     ul.nav li {float: none;}
+    #under_nav_1, #under_nav_2{position: relative;margin: 0;}
 }
 
 /*Nav.bar slutt*/
@@ -265,7 +268,8 @@ input[type=submit]:hover {
     transition: all 0.3s ease 0s;
 }
 /*Supplies end*/
->>>>>>> aef5f736fc8696df8c860866626aa82c0717db8d
+
+
 
 /*Slideshow start */
 .slides {
@@ -280,3 +284,24 @@ input[type=submit]:hover {
     display: none;
 }
 /*Slideshow end*/
+
+/*Partners start*/
+.partners_img{
+    width: 200px;
+    float: right;
+}
+.partner_div{
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.partners_a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.partners_a:hover{
+    color: #b2722a;
+    transition: all 0.3s ease 0s; 
+}
+/*Partners end*/

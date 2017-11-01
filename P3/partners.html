@@ -1,1 +1,81 @@
+<!doctype html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="a page about SportsCenteret">
+        <title>SportsCenteret</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
+
+            <!-- div for kontaktknapp lol-->
+            <div id="contact_button"><a href="contact.html">KONTAKT</a></div>
+
+            <!-- Øverste del av nav.bar-->
+            <ul class="nav">
+                <li id="li_2"><a onclick="toggle_meny('under_nav_2','li_2','li_1'); close_meny('under_nav_1', 'li_1');">SVALBARD</a></li>
+                <li id="li_1"><a onclick="toggle_meny('under_nav_1','li_1','li_2'); close_meny('under_nav_2', 'li_2');">SPORTSCENTERET</a></li>
+            </ul>
+            <!-- De to menyene som dukker opp under hovedmenyen -->
+            <ul class="nav" id="under_nav_1">
+                <li><a href="supplies.html">Leverandører</a></li>
+                <li><a href="weapons.html">Våpenleie og regler</a></li>
+                <li><a href="history.html">Historie</a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+            <ul class="nav" id="under_nav_2">
+                <li><a href="partners.html">Samarbeidspartenere</a>
+                <li><a href="info_svalbard.html">Info om Svalbard</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <h1>Partnere</h1>
+            
+            <div class="partner_div">
+                <a href="https://www.unis.no/" target="_blank"><img class="partners_img" src="img/partners/unis.jpg"> </a>
+
+                <a class="partners_a" href="https://www.unis.no/" target="_blank">UNIS</a>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet vitae diam eu tempus. Maecenas ultrices placerat erat eget porta. Aenean quis metus aliquet dolor dictum commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam malesuada mauris id lacus molestie, et vulputate ante sagittis. Etiam tincidunt aliquam semper. Maecenas gravida a neque ut venenatis. Maecenas vehicula tempor libero, porttitor malesuada arcu gravida vel. Suspendisse potenti. Phasellus ante justo, varius et felis sed, ullamcorper tempus orci. Mauris vel sem efficitur, molestie felis et, convallis mauris. Phasellus pulvinar mattis viverra. </p>
+            </div>
+            
+            <div class="partner_div">
+                <a href="http://www.visitsvalbard.com/no/velkommen-til-Arktis" target="_blank"><img class="partners_img"  src="img/partners/visit_svalbard.jpg"> </a>
+
+                <a class="partners_a" href="http://www.visitsvalbard.com/no/velkommen-til-Arktis" target="_blank">Visit Svalbard</a>
+
+                <p>Aliquam malesuada libero lorem. Proin maximus sapien sem, in consectetur justo efficitur non. Suspendisse facilisis nisi id eros venenatis, vitae iaculis nisi varius. In vehicula varius leo, id faucibus eros dapibus eget. Suspendisse ultricies mauris facilisis, feugiat odio vitae, semper nulla. Donec ac urna sed turpis suscipit volutpat. Nam tristique diam at tristique malesuada. Aliquam non erat ipsum. Ut nisl justo, condimentum at lacus at, cursus porttitor enim. Curabitur elit velit, ornare eget malesuada in, pulvinar nec sem. Ut non felis lacinia, convallis leo ac, tristique lacus. Vivamus convallis laoreet dignissim. In porta ante vel massa mollis suscipit. Quisque accumsan odio vitae odio venenatis mattis.</p>
+            </div>
+
+            <div class="partner_div">
+                <a href="http://www.basecampexplorer.com/spitsbergen/" target="_blank"><img class="partners_img"  src="img/partners/basecamp.jpg"> </a>
+
+                <a class="partners_a" href="http://www.basecampexplorer.com/spitsbergen/" target="_blank">Basecamp Explorer</a>
+
+                <p>Praesent eget elementum libero. Cras maximus pellentesque nisl ut rhoncus. Morbi sollicitudin eu mauris sed hendrerit. Nunc ornare felis vel laoreet fringilla. Aliquam congue, metus in pulvinar dignissim, nunc turpis semper eros, nec pretium nunc augue a velit. Praesent velit nisl, finibus sit amet dui et, lacinia dictum odio. Nulla vel nisi nisi. Nunc felis felis, sollicitudin nec placerat ut, mollis et ipsum. Curabitur nulla dolor, maximus vitae dui non, eleifend congue diam. Phasellus et bibendum ligula. Ut nisl justo, condimentum at lacus at, cursus porttitor enim. Curabitur elit velit, ornare eget malesuada in, pulvinar nec sem. Ut non felis lacinia, convallis leo ac, tristique lacus. Vivamus convallis laoreet dignissim. In porta ante vel massa mollis suscipit. Quisque accumsan odio vitae odio venenatis mattis. </p>
+            </div>
+            
+            <div class="partner_div">
+                <a href="http://www.spitsbergentravel.no/start/longyear78/serviceverksted-igp/" target="_blank"><img class="partners_img"  src="img/partners/igp.jpg"> </a>
+
+                <a class="partners_a" href="http://www.spitsbergentravel.no/start/longyear78/serviceverksted-igp/" target="_blank">IGP</a>
+
+                <p>Integer auctor leo magna, quis eleifend metus luctus et. Sed et gravida ipsum. Maecenas porta dignissim libero. Ut nisl justo, condimentum at lacus at, cursus porttitor enim. Curabitur elit velit, ornare eget malesuada in, pulvinar nec sem. Ut non felis lacinia, convallis leo ac, tristique lacus. Vivamus convallis laoreet dignissim. In porta ante vel massa mollis suscipit. Quisque accumsan odio vitae odio venenatis mattis.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Created by HHIM</p>
+        </footer>
+
+        <!--Skript for nav.bar. Denne må med på alle sider!! -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+
+    </body>
+</html>
 
