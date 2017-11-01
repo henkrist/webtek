@@ -107,3 +107,12 @@ ul.nav li a:hover {background-color: #b2722a;}
     width: 100%;
 }
 
+/*Slideshow start */
+.slides {
+    width: 100%;
+}
+
+.slides:not(:first-child) {
+    display: none;
+}
+/*Slideshow end */
