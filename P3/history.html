@@ -1,56 +1,75 @@
-
 <!doctype html>
 <html lang="eng">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="a page about SportsCenteret">
-        <title>History</title>
+        <title>SportsCenteret</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
     </head>
     <body>
-        
+
         <header>
-            <img id="logo" src="img/logo.png" alt="logo" /> <!--logoen til SportsCenteret / ikke ferdig-->
-            
-            <!-- div for kontaktknapp -->
-            <div id="contact_button">KONTAKT</div>
-            
-            <!-- Øverste del av nav.bar-->        
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
+
+            <!-- div for kontaktknapp lol-->
+            <div id="contact_button"><a href="contact.html">KONTAKT</a></div>
+
+            <!-- Øverste del av nav.bar-->
             <ul class="nav">
-                <li><a href="">SPORTSCENTERET</a></li>
-                <li><a href="">SVALBARD</a></li>
+                <li id="li_2"><a onclick="toggle_meny('under_nav_2','li_2','li_1'); close_meny('under_nav_1', 'li_1');">SVALBARD</a></li>
+                <li id="li_1"><a onclick="toggle_meny('under_nav_1','li_1','li_2'); close_meny('under_nav_2', 'li_2');">SPORTSCENTERET</a></li>
             </ul>
-            <!-- De to menyene som dukker opp under hodemenyen -->
+            <!-- De to menyene som dukker opp under hovedmenyen -->
             <ul class="nav" id="under_nav_1">
-                <li><a href="">Om oss</a></li>
-                <li><a href="">Våpenleie og regler</a></li>
-                <li><a href="">Historie</a></li>
-                <li><a href="">Leverandører</a></li>
+                <li><a href="supplies.html">Leverandører</a></li>
+                <li><a href="weapons.html">Våpenleie og regler</a></li>
+                <li><a href="history.html">Historie</a></li>
+                <li><a href="about.html">Om oss</a></li>
             </ul>
             <ul class="nav" id="under_nav_2">
-                <li><a href="">Info om Svalbard</a></li>
-                <li><a href="">Samarbeidspartenere</a></li>
+                <li><a href="partners.html">Samarbeidspartenere</a>
+                <li><a href="info_svalbard.html">Info om Svalbard</a></li>
             </ul>
-
         </header>
 
-	<p class="paragraph" id="history">
-		
-		<!-- Putt inn innholdet her! -->
-		
-	</p>
-	    
-        <div class="slideShowHistory">
-            <img class="slides" src="images/history1">
-            <img class="slides" src="images/history2">
-            <img class="slides" src="images/history3">
-            <img class="slides" src="images/history4">
-        </div>
-	    
+        <div class="content">   
+           
+        <h3 id="header_history">Vår historie</h3>
+         <hr id="horline_history" style="width:90%">
+         
+         
+             <div class="row_history">
+             
+             <div class="column_history" id="text_history">
+                 <p id="history_content">Test test</p>
+             </div> <!--column-->
+             
+             <div class="column_history">
+               
+               <!-- slideshow-->
+                <div id="slideShow" class="slideShow">
+                    <img class="slides" src="img/bilde1.png">
+                    <img class="slides" src="img/bilde2.png">
+                    <img class="slides" src="img/bilde3.png">
+                    <img class="slides" src="img/bilde4.png">
+                </div>
+                
+            </div> <!--column-->
+            
+            </div> <!--row-->
+            
+            
+            
+        </div> <!--content-->
+        
         <footer>
             <p>Created by HHIM</p>
         </footer>
+
+        <!--Skript for nav.bar. Denne må med på alle sider!! -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+
     </body>
-     <script src="script.js"></script>
 </html>

@@ -176,14 +176,14 @@ input[type=submit]:hover {
 .content{
     box-sizing: border-box;
 }
-.column{
+.column_contact{
     float:left;
     width: 32%;
     padding: 5px;
     height: 500px;
     margin-left: 2px;
 }
-.row:after {
+.row_contact:after {
     content: "";
     display: table;
     clear: both;
@@ -214,6 +214,35 @@ input[type=submit]:hover {
     border-style:outset; 
 }
 
+/*HISTORY PAGE*/
+#horline_histoy{
+    width: 20px;
+}
+
+#header_history{
+    margin-top:4px;
+    margin-left:5%;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:#b2722a;
+    margin-top: 20px;
+    align-content: center;
+    width: 100%;
+}
+.column_history{
+    float:left;
+    width: 32%;
+    padding: 5px;
+    height: 500px;
+    margin-left: 2px;
+}
+.row_history:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 /*SUPPLIES PAGE*/
 .supplies_div{
     height: 160px;
@@ -226,9 +255,6 @@ input[type=submit]:hover {
     width: 100%;
 }
 
-<<<<<<< HEAD
-
-=======
 .supplies_div img:hover{
     width: 99%;
     transition: all 0.3s ease 0s;
