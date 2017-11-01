@@ -113,6 +113,11 @@ ul.nav li a:hover {background-color: #b2722a;}
     margin: 30px auto 20px auto;
 }
 
+/*
+.content{
+    box-sizing: border-box;
+}
+*/
 
 /*Footer*/
 footer {
@@ -127,6 +132,7 @@ footer {
 
 
 /*CONTACT PAGE */
+
 #map {
     height: 300px;
     width: 100%;
@@ -176,12 +182,10 @@ input[type=submit]:hover {
     align-content: center;
     width: 100%;
 }
-.content{
-    box-sizing: border-box;
-}
+
 .column_contact{
     float:left;
-    width: 32%;
+    width: 50%;
     padding: 5px;
     height: 500px;
     margin-left: 2px;
@@ -193,6 +197,9 @@ input[type=submit]:hover {
 }
 #small_box{
     height:200px;
+    width:25%;
+    float:right;
+    margin-right: 10%;
 }
 
 #adress,#hours{
@@ -216,6 +223,12 @@ input[type=submit]:hover {
     border-width:thin;
     border-style:outset; 
 }
+
+@media screen and (max-width: 600px){ 
+    #big_box{width: 100%};
+    #small_box{width: 25%};
+}
+
 
 /*HISTORY PAGE*/
 #horline_histoy{
@@ -247,7 +260,6 @@ input[type=submit]:hover {
 
 #pictures_history{
     margin-left: 10%;;
-    
 }
 
 
