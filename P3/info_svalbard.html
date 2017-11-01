@@ -1,1 +1,56 @@
+<!doctype html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="a page about SportsCenteret">
+        <title>SportsCenteret</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
+    </head>
+    <body>
 
+        <header>
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
+
+            <!-- div for kontaktknapp lol-->
+            <div id="contact_button"><a href="contact.html">KONTAKT</a></div>
+
+            <!-- Øverste del av nav.bar-->
+            <ul class="nav">
+                <li id="li_2"><a onclick="toggle_meny('under_nav_2','li_2','li_1'); close_meny('under_nav_1', 'li_1');">SVALBARD</a></li>
+                <li id="li_1"><a onclick="toggle_meny('under_nav_1','li_1','li_2'); close_meny('under_nav_2', 'li_2');">SPORTSCENTERET</a></li>
+            </ul>
+            <!-- De to menyene som dukker opp under hovedmenyen -->
+            <ul class="nav" id="under_nav_1">
+                <li><a href="supplies.html">Leverandører</a></li>
+                <li><a href="weapons.html">Våpenleie og regler</a></li>
+                <li><a href="history.html">Historie</a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+            <ul class="nav" id="under_nav_2">
+                <li><a href="partners.html">Samarbeidspartenere</a>
+                <li><a href="info_svalbard.html">Info om Svalbard</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+          <h3 id="header_info">Info om Svalbard</h3>
+           <hr id="horline_info" style="width:90%">
+
+          <div class="column_info" id="text_info">
+              <p id="info_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div> <!--column-->
+
+        </div>
+
+        <footer>
+            <p>Created by HHIM</p>
+        </footer>
+
+        <!--Skript for nav.bar. Denne må med på alle sider!! -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+
+    </body>
+</html>
