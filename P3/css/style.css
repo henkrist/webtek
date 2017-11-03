@@ -44,7 +44,6 @@ header{
 }
 
 
-
 /*                      Nav.bar                   */
 
 /*Fjerner alle predefinerte instillinger på listen*/
@@ -190,7 +189,7 @@ input[type=submit]:hover {
     width: 100%;
 }
 #intro_contact{
-    width: 49%;
+    width: 40%;
     float:left;
     margin: 4px;
 }
@@ -198,37 +197,41 @@ input[type=submit]:hover {
     margin-left: 10px;
 }
 
-.column_contact{
-    float:left;
-    width: 50%;
-    padding: 5px;
-    height: 500px;
-    margin-left: 2px;
-}
+
 .row_contact:after {
     content: "";
     display: table;
     clear: both;
 }
-#small_box{
-    height:200px;
-    width:25%;
-    float:right;
-    margin-right: 10%;
-}
 
 #adress,#hours{
-    margin-top: 40px;
     border-radius: 5px;
     padding: 10px;
     width: 90%;
-    float:none;
+    float:left;
+    position: relative;
+    bottom: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-color: #b2722a;
+}
+#adress{
+    float:right;
+    line-height: 110%;
+    width:20%;
+}
+#hours{
+    left:5px;
+    width:30%;
 }
 #adress_title, #hours_title{
-    font-size: 20px;
+    font-size: 30px;
     margin: 0;
     text-align: center;
-
+    
 }
 
 #horline_adress {
@@ -236,12 +239,20 @@ input[type=submit]:hover {
     border-radius: 5px;
     border-width:thin;
     border-style:outset; 
+    width: 100%;
 }
 
 @media screen and (max-width: 600px){ 
-    #big_box{width: 100%};
-    #small_box{width: 25%};
+    #adress,#hours{float:left};
 }
+
+legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
 
 
 /*HISTORY PAGE*/
