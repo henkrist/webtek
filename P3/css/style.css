@@ -138,6 +138,9 @@ footer {
     width: 100%;
     float: left;
     margin-bottom: 30px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 input[type=text], input[type=email], select, textarea {
@@ -157,6 +160,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0px 1px 1px #888888;
 }
 input[type=submit]:hover {
     background-color: #734f1e;
@@ -171,16 +175,27 @@ input[type=submit]:hover {
     margin-top: 40px;
     margin-left: 5%;
     margin-bottom: 60px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 #header_contact{
     margin-top:4px;
-    margin-left:5%;
-    font-size: 40px;
+
+    font-size: 50px;
     margin-bottom: 0;
     color:#b2722a;
     margin-top: 20px;
     align-content: center;
     width: 100%;
+}
+#intro_contact{
+    width: 49%;
+    float:left;
+    margin: 4px;
+}
+#contact_img{
+    margin-left: 10px;
 }
 
 .column_contact{
