@@ -1,1 +1,52 @@
+<!doctype html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="a page about SportsCenteret">
+        <title>Weapons and laws</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
+
+            <!-- div for kontaktknapp lol-->
+            <div id="contact_button"><a href="contact.html">KONTAKT</a></div>
+
+            <!-- Øverste del av nav.bar-->
+            <ul class="nav">
+                <li id="li_2"><a onclick="toggle_meny('under_nav_2','li_2','li_1'); close_meny('under_nav_1', 'li_1');">SVALBARD</a></li>
+                <li id="li_1"><a onclick="toggle_meny('under_nav_1','li_1','li_2'); close_meny('under_nav_2', 'li_2');">SPORTSCENTERET</a></li>
+            </ul>
+            <!-- De to menyene som dukker opp under hovedmenyen -->
+            <ul class="nav" id="under_nav_1">
+                <li><a href="supplies.html">Leverandører</a></li>
+                <li><a href="weapons.html">Våpenleie og regler</a></li>
+                <li><a href="history.html">Historie</a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+            <ul class="nav" id="under_nav_2">
+                <li><a href="partners.html">Samarbeidspartenere</a>
+                <li><a href="info_svalbard.html">Info om Svalbard</a></li>
+            </ul>
+        </header>
+
+        <div id="content">   <!-- slideshow-->
+
+        </div>
+        
+        <footer>
+            <p>Created by HHIM</p>
+        </footer>
+
+        <!--Skript for nav.bar. Denne må med på alle sider!! -->
+        <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+
+    </body>
+</html>
 

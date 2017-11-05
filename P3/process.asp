@@ -6,19 +6,16 @@
 
 <body>
 <%
-'declare the variables that will receive the values 
-Dim name, email, comment
-'receive the values sent from the form and assign them to variables
-'note that request.form("name") will receive the value entered 
-'into the textfield called name
-name=Request.Form("name")
-email=Request.Form("email")
-comment=Request.Form("comment")
+    name=Request.Form("fname")
+    email=Request.Form("email")
+    subject=Request.From("subject")
+    message=Request.Form("message")
+    
 
-'let's now print out the received values in the browser
-Response.Write("Name: " & name & "<br>")
-Response.Write("E-mail: " & email & "<br>")
-Response.Write("Comments: " & comment & "<br>")
-%> 
+    response.Write("Name: " & fname & "<br>")
+    response.Write("E-mail: " & email & "<br>")
+    response.Write("Subject " & subject & "<br>")
+    response.Write("Message: " & message & "<br>")
+%>
 </body>
 </html>

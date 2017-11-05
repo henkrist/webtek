@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="a page about SportsCenteret">
-        <title>SportsCenteret</title>
+        <title>Contact</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
+        
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
     <body>
 
@@ -82,7 +85,7 @@
                         
             <!-- Contact scheme -->
             
-            <form  id="contact_form" action="prcess.asp" onsubmit="return validateForm();" method="post">
+            <form  id="contact_form" action="process.asp" method="get" name="form1" onsubmit="return validateForm();" >
                    <legend>Hello! Contact us:</legend>
                     <div class ="row" id="name">
                     <label for="fname">Full name</label><br>
