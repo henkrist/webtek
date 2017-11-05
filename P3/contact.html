@@ -82,7 +82,7 @@
                         
             <!-- Contact scheme -->
             
-            <form  id="contact_form" action="/form/my-form" method="POST" enctype="multipart/form-data">
+            <form  id="contact_form" action="prcess.asp" onsubmit="return validateForm();" method="post">
                    <legend>Hello! Contact us:</legend>
                     <div class ="row" id="name">
                     <label for="fname">Full name</label><br>
@@ -105,6 +105,7 @@
                     <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
                     </div>
                     <input id="submit_button" type="submit" value="Send email" />
+                    <input id="reset_button" type="reset" value="Reset fields" />
             </form> 
               
         </div> <!-- Content -->
@@ -117,6 +118,7 @@
         <script type="text/javascript" src="js/map.js"> </script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfANh0pOzgZE2_7V08uR-Zsx8lq_O7w1s&callback=initMap"></script>
+        <script type="text/javascript" src="js/contactScheme.js"></script>
         
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
