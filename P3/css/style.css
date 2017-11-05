@@ -1,11 +1,18 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
     width: 100%;
+    height: 100%;
+    position: relative;
     margin: 0px;
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/*                    Header                            */
+/*  Header */      
 
 header{
     width: 80%;
@@ -109,23 +116,19 @@ ul.nav li a:hover {background-color: #b2722a;}
 /*Class Content: Delen på siden hvor alt innholdet skal.*/
 .content{
     width: 80%;
+    height: 80%;
     margin: 30px auto 20px auto;
 }
 
-/*
-.content{
-    box-sizing: border-box;
-}
-*/
 
 /*Footer*/
 footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background: grey;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
 }
 
 
@@ -165,18 +168,32 @@ input[type=submit]:hover {
     background-color: #734f1e;
     transition: all 0.3s ease 0s;
 }
+#subject{
+    width:125px;
+}
 #contact_form {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     width: 80%;
     float: left;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-left: 5%;
     margin-bottom: 60px;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
+}
+
+legend{
+    width:25%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:left;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px
 }
 #header_contact{
     margin-top:4px;
@@ -188,6 +205,7 @@ input[type=submit]:hover {
     align-content: center;
     width: 100%;
 }
+
 #intro_contact{
     width: 40%;
     float:left;
@@ -212,11 +230,13 @@ input[type=submit]:hover {
     position: relative;
     bottom: 50px;
     border-radius: 5px;
+    /*
     background-color: #f2f2f2;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
     border-color: #b2722a;
+    */
 }
 #adress{
     float:right;
@@ -224,13 +244,20 @@ input[type=submit]:hover {
     width:200px;
     margin-right: 30px;
     margin-top: 5px;
+    
 }
 #hours{
     left:5px;
-    width:300px;
+    width:250px;
     margin-left: 30px;
     float:right;
 }
+
+#adress_content, #hours_content{
+    font-weight: 700;
+} 
+
+/*
 #adress_title, #hours_title{
     font-size: 30px;
     margin: 0;
@@ -245,19 +272,26 @@ input[type=submit]:hover {
     border-style:outset; 
     width: 100%;
 }
+*/
 
 @media screen and (max-width: 600px){ 
-    #adress,#hours{float:right; margin: 10px;};
-    #hours{width: 150px; background-color: aqua;};
-    
+    #adress,#hours{float:left; margin: 10px;};
+}
+#map_icon{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+#clock_icon{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
 }
 
-legend{
-    display: block;
-    padding-left: 2px;
-    padding-right: 2px;
-    border: none;
-}
+
 
 
 

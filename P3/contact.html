@@ -42,89 +42,83 @@
             
             <h3 id="header_contact">Find us!</h3>
             
+            <!-- Text, contact us -->
             <div id="intro_contact">
                 <p>
                     At Sportscenteret Svalbard we are always working towards providing the best service and supply the best products. Please contact us with questions about our products and/or services using the form under, or stop by our store!
                 </p>
             </div>
             
+            <!-- Hours box -->
             <div id="hours">
-                <h3 id="hours_title"> Hours </h3>
-                    <hr id="horline_adress">
-                <p id="hours_content"> 
-                <table style="width:100%">
-                    <tr>
-                    <td>Mandag-Fredag</td>
-                    <td>10:00 - 18:00</td>
-                    </tr>
-                    <tr>
-                    <td>Lørdag</td>
-                    <td>10:00 - 14:00</td>
-                    </tr>
-                    <tr>
-                    <td>Søndag</td>
-                    <td>Stengt</td>
-                    </tr>
-                </table>
-                </p>
+                <img id="clock_icon" alt="clock_icon" class="image" src="img/clock_icon.png" align="middle">
+                <!--<h3 id="hours_title"> Hours </h3>
+                    <hr id="horline_adress"> -->
+                <div id="hours_content"> 
+                    <table style="width:100%">
+                        <tr>
+                        <td>Mandag-Fredag</td>
+                        <td>10:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                        <td>Lørdag</td>
+                        <td>10:00 - 14:00</td>
+                        </tr>
+                        <tr>
+                        <td>Søndag</td>
+                        <td>Stengt</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             
-            
+            <!-- Adress box -->
             <div id="adress">
-                <h3 id="adress_title"> Adress </h3> <hr id="horline_adress">
+                <img id="map_icon" alt="map_icon" class="image" src="img/map_point.png" align="middle">
+                <!--<h3 id="adress_title"> Adress </h3> <hr id="horline_adress"> -->
                 <p id="adress_content">Sportscenteret Svalbard <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
                 </p>
             </div>
-            
-            
-            
-            <!--
-            <div id="contact_img">
-                <img src="img/polarBEAR.jpg">
-            </div>
-            -->
-            
-                 
+                        
             <!-- Contact scheme -->
-                    <form  id="contact_form" action="/form/my-form" method="POST" enctype="multipart/form-data">
-                            <div class ="row" id="name">
-                            <label for="fname">Full name</label><br>
-                            <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
-                            </div>
-                            <label for="email">Email</label><br>
-                            <div class="row" id="email">
-                            <input type="email" class="input" name="email" placeholder="Your email..." required>
-                            </div>
-                            <label for="subject">Subject</label><br>
-                            <select id="subject" name="subject">
-                                <option value="" disabled selected>Select your inquiry</option>
-                                <option value="order">Ordering a product</option>
-                                <option value="complaint">Warranty and other complaints</option>
-                                <option value="rent">Renting a weapon</option>
-                                <option value="other">Other</option>
-                            </select><br>
-                            <label for="message">What's up?</label>
-                            <div class="row">
-                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
-                            </div>
-                            <input id="submit_button" type="submit" value="Send email" />
-                    </form>
-                
-                
-        </div> 
+            
+            <form  id="contact_form" action="/form/my-form" method="POST" enctype="multipart/form-data">
+                   <legend>Hello! Contact us:</legend>
+                    <div class ="row" id="name">
+                    <label for="fname">Full name</label><br>
+                    <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                    </div>
+                    <label for="email">Email</label><br>
+                    <div class="row" id="email">
+                    <input type="email" class="input" name="email" placeholder="Your email..." required>
+                    </div>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject">
+                        <option value="" disabled selected>Select your inquiry</option>
+                        <option value="order">Ordering a product</option>
+                        <option value="complaint">Warranty and other complaints</option>
+                        <option value="rent">Renting a weapon</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <label for="message">What's up?</label>
+                    <div class="row">
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
+                    </div>
+                    <input id="submit_button" type="submit" value="Send email" />
+            </form> 
+              
+        </div> <!-- Content -->
        
         <footer>
             <p>Created by HHIM</p>
         </footer>
         
         <!-- script til kart-->
-        
         <script type="text/javascript" src="js/map.js"> </script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfANh0pOzgZE2_7V08uR-Zsx8lq_O7w1s&callback=initMap"></script>
         
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
-
     </body>
 </html>
