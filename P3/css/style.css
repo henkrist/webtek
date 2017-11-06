@@ -17,6 +17,7 @@ h1{
     color:#b2722a;
 }
 
+
 /*
 #preload::after {
     width: 50px;
@@ -164,8 +165,9 @@ ul.nav li a:hover {background-color: #b2722a;}
 
 /*Footer*/
 footer {
-    position: absolute;
-    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: #efefef;
     text-align: center;
