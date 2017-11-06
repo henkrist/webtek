@@ -221,14 +221,14 @@ legend{
 }
 
 #intro_contact{
-    width: 40%;
+    width: 30%;
     float:left;
     margin: 4px;
 }
+
 #contact_img{
     margin-left: 10px;
 }
-
 
 .row_contact:after {
     content: "";
@@ -236,11 +236,10 @@ legend{
     clear: both;
 }
 
-#adress,#hours, #phone{
+#adress,#hours,#phone{
     border-radius: 5px;
     padding: 10px;
-    width: 90%;
-    float:left;
+    float:right;
     position: relative;
     bottom: 50px;
     border-radius: 5px;
@@ -256,20 +255,20 @@ legend{
     float:right;
     line-height: 110%;
     width:200px;
-    margin-right: 30px;
     margin-top: 5px;
     
 }
 #hours{
     left:5px;
     width:250px;
-    margin-left: px;
+    margin-top: 5px;
     float:right;
 }
 #phone{
     left:5px;
-    width:250px;
+    width:150px;
     margin-left: 20px;
+    margin-top: 5px;
     float:right;
 }
 
@@ -296,8 +295,9 @@ legend{
 */
 
 @media screen and (max-width: 600px){ 
-    #adress,#hours,#phone{float:left; margin: 10px;};
+    #adress,#hours,#phone{float:right; margin: 10px;};
     #hours{margin-top: 40px};
+    #phone{margin-top: 10px};
     #intro_content{float:left; width: 60%;};
 }
 #map_icon{
