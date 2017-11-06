@@ -9,13 +9,18 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
-    <body>
+    <body onload="initLang()">
 
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
+            
+            <div id="language_selector">
+                <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
+                <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
+            </div>
 
             <!-- div for kontaktknapp lol-->
-            <div id="contact_button"><a href="contact.html">KONTAKT</a></div>
+            <div id="contact_button"><a href="contact.html"><div class="no">KONTAKT</div><div class="en">CONTACT</div> </a></div>
 
             <!-- Øverste del av nav.bar-->
             <ul class="nav">
@@ -24,14 +29,14 @@
             </ul>
             <!-- De to menyene som dukker opp under hovedmenyen -->
             <ul class="nav" id="under_nav_1">
-                <li><a href="supplies.html">Leverandører</a></li>
-                <li><a href="weapons.html">Våpenleie og regler</a></li>
-                <li><a href="history.html">Historie</a></li>
-                <li><a href="about.html">Om oss</a></li>
+                <li><a href="supplies.html"><div class="no">Leverandører</div><div class="en">Supplies</div></a></li>
+                <li><a href="weapons.html"><div class="no">Våpenleie og regler</div><div class="en">Weapon rental and rules</div></a></li>
+                <li><a href="history.html"><div class="no">Historie</div><div class="en">History</div></a></li>
+                <li><a href="about.html"><div class="no">Om oss</div><div class="en">About us</div></a></li>
             </ul>
             <ul class="nav" id="under_nav_2">
-                <li><a href="partners.html">Samarbeidspartenere</a>
-                <li><a href="info_svalbard.html">Info om Svalbard</a></li>
+                <li><a href="partners.html"><div class="no">Samarbeidspartenere</div><div class="en">Partners</div></a>
+                <li><a href="info_svalbard.html"><div class="no">Info om Svalbard</div><div class="en">Info about Svalbard</div></a></li>
             </ul>
         </header>
 
@@ -46,6 +51,7 @@
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/language.js"></script>
 
     </body>
 </html>
