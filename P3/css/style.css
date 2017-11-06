@@ -22,6 +22,21 @@ header{
     margin-bottom: 50px;
 }
 
+#language_selector{
+    position:relative;
+    margin-bottom: 0px;
+}
+#language_selector div{
+    float: left;
+    margin: 3px;
+    padding: 0px;
+}
+
+#language_selector img{
+    width: 25px;
+    cursor:pointer;
+}
+
 /*Syle for kontakt-knappen*/
 #contact_button{
     background-color:  #b2722a;

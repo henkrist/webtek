@@ -14,10 +14,10 @@ function setLang(){
     var current_lang = document.getElementsByClassName(sessionStorage.getItem("language"));
     var new_lang;
     
-    if(sessionStorage.getItem("language") == 'en'){
-        new_lang = document.getElementsByClassName('no');
+    if(sessionStorage.getItem("language") == "en"){
+        new_lang = document.getElementsByClassName("no");
     }else{
-        new_lang = document.getElementsByClassName('en');
+        new_lang = document.getElementsByClassName("en");
     }
     
     for(var i = 0; i<current_lang.length; i++){
