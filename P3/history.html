@@ -13,7 +13,7 @@
 
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
-            
+
             <div id="language_selector">
                 <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
                 <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
@@ -21,6 +21,10 @@
 
             <!-- div for kontaktknapp lol-->
             <div id="contact_button"><a href="contact.html"><div class="no">KONTAKT</div><div class="en">CONTACT</div> </a></div>
+
+            <!-- div for openingHours- scripten -->
+            <div id="timeDiv">
+            </div>
 
             <!-- Øverste del av nav.bar-->
             <ul class="nav">
@@ -40,18 +44,18 @@
             </ul>
         </header>
 
-        <div class="content">   
-           
+        <div class="content">
+
         <h3 id="header_history">Vår historie</h3>
          <hr id="horline_history" style="width:90%">
-         
-         
+
+
              <div class="row_history">
-             
+
              <div class="column_history" id="text_history">
                  <p id="history_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
              </div> <!--column-->
-             
+
              <div class="column_history" id="pictures_history">
 
                <!-- slideshow-->
@@ -61,15 +65,15 @@
                     <img class="slides" src="img/bilde3.png">
                     <img class="slides" src="img/bilde4.png">
                 </div>
-                
+
             </div> <!--column-->
-            
+
             </div> <!--row-->
-            
-            
-            
+
+
+
         </div> <!--content-->
-        
+
         <footer>
             <p>Created by HHIM</p>
         </footer>
@@ -78,6 +82,7 @@
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/slideshow.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
+        <script type="text/javascript" src="js/openingHours.js"></script>
 
     </body>
 </html>

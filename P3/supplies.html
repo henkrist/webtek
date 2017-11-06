@@ -13,7 +13,7 @@
 
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
-            
+
             <div id="language_selector">
                 <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
                 <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
@@ -21,6 +21,10 @@
 
             <!-- div for kontaktknapp lol-->
             <div id="contact_button"><a href="contact.html"><div class="no">KONTAKT</div><div class="en">CONTACT</div> </a></div>
+
+            <!-- div for openingHours- scripten -->
+            <div id="timeDiv">
+            </div>
 
             <!-- Øverste del av nav.bar-->
             <ul class="nav">
@@ -40,7 +44,7 @@
             </ul>
         </header>
 
-        
+
         <div class="content">
             <div class="no">
                 <h1>Leverandører</h1>
@@ -53,7 +57,7 @@
                 <p>Some of the brands we have in the shop:</p>
             </div>
             <div id="supplies_brands">
-                <div class="supplies_div"><a href="https://alfa.no/" target="_blank"><img src="img/supplies/alfa.jpg" alt="Alfa"></a></div> 
+                <div class="supplies_div"><a href="https://alfa.no/" target="_blank"><img src="img/supplies/alfa.jpg" alt="Alfa"></a></div>
 
                 <div class="supplies_div"><a href="https://www.bergans.com/" target="_blank"><img src="img/supplies/bergans.png" alt="Bergans"></a></div>
 
@@ -71,9 +75,9 @@
 
                 <div class="supplies_div"><a href="https://www.swix.no/" target="_blank"><img src="img/supplies/swix.png" alt="Swix"></a></div>
             </div>
-            
+
         </div>
-       
+
         <footer>
             <p>Created by HHIM</p>
         </footer>
@@ -81,6 +85,7 @@
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
+        <script type="text/javascript" src="js/openingHours.js"></script>
 
     </body>
 </html>
