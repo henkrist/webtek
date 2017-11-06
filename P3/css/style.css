@@ -183,7 +183,7 @@ input[type=reset]:hover {
     transition: all 0.3s ease 0s;
 }
 #subject{
-    width:125px;
+    width:200px;
 }
 #contact_form {
     border-radius: 5px;
