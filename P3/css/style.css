@@ -372,13 +372,9 @@ legend{
 
 
 /*HISTORY PAGE*/
-#horline_histoy{
-    width: 20px;
-}
 
 #header_history{
     margin-top:4px;
-    margin-left:5%;
     font-size: 40px;
     margin-bottom: 0;
     color:#b2722a;
@@ -403,6 +399,16 @@ legend{
     margin-left: 10%;;
 }
 
+/*Info_Svalbard PAGE*/
+#header_info{
+    margin-top:4px;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:#b2722a;
+    margin-top: 20px;
+    align-content: center;
+    width: 100%;
+/*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
 .supplies_div{
