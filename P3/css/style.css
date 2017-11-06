@@ -23,8 +23,7 @@ header{
 }
 
 #language_selector{
-    position:relative;
-    margin-bottom: 0px;
+    position: absolute;
 }
 #language_selector div{
     float: left;
@@ -122,6 +121,7 @@ ul.nav li a:hover {background-color: #b2722a;}
 @media screen and (max-width: 600px){ 
     ul.nav li {float: none;}
     #under_nav_1, #under_nav_2{position: relative;margin: 0;}
+    #logo{width: 100%}
 }
 
 /*Nav.bar slutt*/
