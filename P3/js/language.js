@@ -1,6 +1,6 @@
 function initLang(){
     if(sessionStorage.getItem("language") == null){
-        sessionStorage.setItem("language", "en");
+        sessionStorage.setItem("language", "no");
     }
     setLang();
 }
