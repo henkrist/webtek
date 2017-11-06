@@ -79,6 +79,22 @@
                             </tr>
                         </table>
                     </div>
+                    <div class="en">
+                        <table style="width:100%">
+                            <tr>
+                            <td>Monday-Friday</td>
+                            <td>10AM - 6PM</td>
+                            </tr>
+                            <tr>
+                            <td>Saturday</td>
+                            <td>10AM - 2PM</td>
+                            </tr>
+                            <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             
@@ -98,29 +114,62 @@
             <!-- Contact scheme -->
             
             <form  id="contact_form" action="process.asp" method="push" name="form1" onsubmit="return validateForm();" >
-                   <legend>Hello! Contact us:</legend>
+                   <legend><div class="en">Hello! Contact us:</div> <div class="no">Heisann! Kontakt oss:</div></legend>
                     <div class ="row" id="name">
-                    <label for="fname">Full name</label><br>
-                    <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                        <label for="fname"><div class="en">Full name</div> <div class="no">Fullt navn</div> </label><br>
+                        <div class="en">
+                            <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                        </div>
+                        <div class="no">
+                            <input type="text" id="fname" class="input" name="name" placeholder="Ditt navn..." size="30" required>
+                        </div>
                     </div>
                     <label for="email">Email</label><br>
                     <div class="row" id="email">
-                    <input type="email" class="input" name="email" placeholder="Your email..." required>
+                        <div class="en">
+                            <input type="email" class="input" name="email" placeholder="Your email..." required>
+                        </div>
+                        <div class="no">
+                            <input type="email" class="input" name="email" placeholder="Din email..." required>
+                        </div>
                     </div>
-                    <label for="subject">Subject</label><br>
-                    <select id="subject" name="subject">
-                        <option value="" disabled selected>Select your inquiry</option>
-                        <option value="order">Ordering a product</option>
-                        <option value="complaint">Warranty and other complaints</option>
-                        <option value="rent">Renting a weapon</option>
-                        <option value="other">Other</option>
-                    </select><br>
-                    <label for="message">What's up?</label>
+                    <div class="en">
+                        <label for="subject">Subject</label><br>
+                        <select id="subject" name="subject">
+                            <option value="" disabled selected>Select your inquiry</option>
+                            <option value="order">Ordering a product</option>
+                            <option value="complaint">Warranty and other complaints</option>
+                            <option value="rent">Renting a weapon</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                    </div>
+                    <div class="no">
+                        <label for="subject">Emen</label><br>
+                        <select id="subject" name="subject">
+                            <option value="" disabled selected>Velg hendvendelse</option>
+                            <option value="order">Bestille et produkt</option>
+                            <option value="complaint">Garanti og andre klager</option>
+                            <option value="rent">Leie våpen</option>
+                            <option value="other">Annet</option>
+                        </select><br>
+                    </div>
+                    <label for="message"><div class="en">What's up?</div> <div class="no">Hva skjer?</div></label>
                     <div class="row">
-                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
+                        <div class="en">
+                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
+                        </div>
+                        <div class="no">
+                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Skriv din melding her..."></textarea>
+                        </div>
                     </div>
-                    <input id="submit_button" type="submit" value="Send email" />
-                    <input id="reset_button" type="reset" value="Reset fields" />
+                    <div class="en">
+                        <input id="submit_button" type="submit" value="Send email"/>
+                        <input id="reset_button" type="reset" value="Reset fields"/>
+                    </div>
+                    <div class="no">
+                        <input id="submit_button" type="submit" value="Send mail"/>
+                        <input id="reset_button" type="reset" value="Resett feltene"/>
+                    </div>
             </form> 
               
         </div> <!-- Content -->
