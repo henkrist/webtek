@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
-    <body>
+    <body onload="initLang()">
 
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
@@ -47,9 +47,14 @@
             
             <!-- Text, contact us -->
             <div id="intro_contact">
+               <div class="en">
                 <p id="intro_content">
                     At Sportscenteret Svalbard we are always working towards providing the best service and supply the best products. Please contact us with questions about our products and/or services using the form under, or stop by our store!
                 </p>
+                </div>
+                <div class="no">
+                    I Sportscenteret Svalbard jobber vi alltid mot å gi deg den beste servicen og de beste productene. Ta gjerne kontakt dersom du har spørsmål angående productene og/eller tjenestene våre, eller stikk innom butikken!
+                </div>
             </div>
             
             <!-- Hours box -->
@@ -130,5 +135,6 @@
         
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/language.js"></script>
     </body>
 </html>
