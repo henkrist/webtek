@@ -63,8 +63,6 @@ h1{
 }
 
 
-
-
 /*  Header */
 
 header{
@@ -106,6 +104,8 @@ header{
     margin: 0px 0px 20px 10px;
     float: right;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px #888888;
 }
 
 /*Mer styling av kontaktknappen*/
@@ -355,23 +355,6 @@ legend{
     font-weight: 700;
     text-align: center;
 }
-
-/*
-#adress_title, #hours_title{
-    font-size: 30px;
-    margin: 0;
-    text-align: center;
-
-}
-
-#horline_adress {
-    padding: 0;
-    border-radius: 5px;
-    border-width:thin;
-    border-style:outset;
-    width: 100%;
-}
-*/
 
 @media screen and (max-width: 600px){
     #adress,#hours,#phone{float:right; margin: 10px;};
