@@ -14,8 +14,15 @@ body {
 
 
 h1{
+    margin-top:4px;
+    font-size: 50px;
+    margin-bottom: 0;
     color:#b2722a;
+    margin-top: 20px;
+    align-content: center;
+    width: 100%;
 }
+
 
 /*
 #preload::after {
@@ -258,16 +265,6 @@ legend{
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 20px
-}
-#header_contact{
-    margin-top:4px;
-
-    font-size: 50px;
-    margin-bottom: 0;
-    color:#b2722a;
-    margin-top: 20px;
-    align-content: center;
-    width: 100%;
 }
 
 #intro_contact{
