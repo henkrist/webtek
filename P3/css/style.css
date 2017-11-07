@@ -384,14 +384,15 @@ legend{
 }
 
 
-
 /*HISTORY PAGE*/
 
 #header_history{
-    font-size: 40px;
-    color:#b2722a;
-    align-content: center;
-    width: 100%;
+  margin-top:4px;
+  font-size: 40px;
+  margin-bottom: 0;
+  color:#b2722a;
+  margin-top: 20px;
+  align-content: center;
 }
 .text_history{
     float:left;
@@ -411,13 +412,6 @@ legend{
     color:#b2722a;
     margin-top: 20px;
     align-content: center;
-    width: 100%;
-}
-
-#text_info{
-    height: 500px;
-    width: 44%;
-    padding: 4px;
 }
 /*Info_Svalbard end*/
 
