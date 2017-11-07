@@ -389,24 +389,17 @@ legend{
 
 #header_history{
     font-size: 40px;
-    margin-left: 5%;
     color:#b2722a;
     align-content: center;
     width: 100%;
 }
 .text_history{
     float:left;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     margin-bottom: 20px;
 }
 
 #pictures_history{
   float:left;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-bottom: 80px;
 }
 
