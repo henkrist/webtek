@@ -83,18 +83,18 @@ header{
     height: 16px;
 }
 #language_selector div:hover{
-    background-color:#b2722a;
-    height: 17px;
+    /*background-color:#b2722a;*/
     transition: all 0.3s ease 0s;
 }
 
 #language_selector img{
-    width: 25px;
+    opacity: 0.3;
     padding: 0px;
+    height: 20px;
     cursor:pointer;
 }
 #language_selector img:hover{
-    width: 26px;
+    opacity: 1;
     transition: all 0.3s ease 0s;
 }
 
