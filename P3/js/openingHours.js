@@ -15,7 +15,7 @@ document.getElementById("timeDiv");
 
 
 if (now > day[1] && now < day[2]) {
-    timeDiv.innerHTML = "Wer\'e open";
+    timeDiv.innerHTML = "We\'re open";
     timeDiv.style.color = '#1fad4e';
 }
 else {
