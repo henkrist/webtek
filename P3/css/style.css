@@ -227,6 +227,7 @@ footer {
     width: 100%;
     float: left;
     border-radius: 4px;
+    margin-top: 10px;
     margin-bottom: 30px;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
