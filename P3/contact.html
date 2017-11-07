@@ -10,14 +10,13 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
-    <body onload="initLang()">
-
-        <!--
-        <div id="preload">
-
+    <body onload="setTimer();initLang();">
+        
+        <div id="all_loader">
+            <div id="loader">
+            </div>
         </div>
-        -->
-
+        
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
 
@@ -131,7 +130,7 @@
             <!-- Contact scheme -->
 
             <form  id="contact_form" action="process.asp" method="push" name="form1" onsubmit="return validateForm();" >
-                   <legend><div class="en">Hello! Contact us:</div> <div class="no">Heisann! Kontakt oss:</div></legend>
+                   <legend><div class="en">Send us an emial:</div> <div class="no">Send oss en mail:</div></legend>
                     <div class ="row" id="name">
                         <label for="fname"><div class="en">Full name</div> <div class="no">Fullt navn</div> </label><br>
                         <div class="en">
@@ -202,8 +201,9 @@
         <script type="text/javascript" src="js/contactScheme.js"></script>
 
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
-        <script type="text/javascript" src="js/openingHours.js"></script>
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
+        <script type="text/javascript" src="js/openingHours.js"></script>
+        <script type="text/javascript" src="js/preload.js"></script>
     </body>
 </html>
