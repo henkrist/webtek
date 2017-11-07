@@ -27,7 +27,7 @@ function openingLanguage() {
   }
   else {
     if (now > day[1] && now < day[2]) {
-        timeDiv.innerHTML = "Vi har åpna";
+        timeDiv.innerHTML = "Vi er åpne";
         timeDiv.style.color = '#1fad4e';
     }
     else {
