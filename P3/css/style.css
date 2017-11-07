@@ -62,11 +62,17 @@ header{
     float: left;
     margin: 3px;
     padding: 0px;
+    height: 16px;
 }
-
+#language_selector div:hover{
+    background-color:#b2722a;
+    box-shadow: 0px 0px 10px  #b2722a;
+    transition: all 0.3s ease 0s;
+}
 
 #language_selector img{
     width: 25px;
+    padding: 0px;
     cursor:pointer;
 }
 
