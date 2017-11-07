@@ -32,5 +32,6 @@ function setLang(){
     for(var i = 0; i<new_lang.length; i++){
         new_lang[i].style.display = "none";
     }
+    openingLanguage();
 }
 

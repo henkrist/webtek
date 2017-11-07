@@ -13,13 +13,28 @@ var weekdays = [
 var day = weekdays[n];
 document.getElementById("timeDiv");
 
+function openingLanguage() {
+  if (sessionStorage.getItem("language") == "en") {
+    if (now > day[1] && now < day[2]) {
+        timeDiv.innerHTML = "We\'re open";
+        timeDiv.style.color = '#1fad4e';
+    }
+    else {
+        timeDiv.innerHTML = "Wer\'e closed";
 
-if (now > day[1] && now < day[2]) {
-    timeDiv.innerHTML = "We\'re open";
-    timeDiv.style.color = '#1fad4e';
-}
-else {
-    timeDiv.innerHTML = "Wer\'e closed";
+        timeDiv.style.color = "#771424";
+    }
+  }
+  else {
+    if (now > day[1] && now < day[2]) {
+        timeDiv.innerHTML = "Vi har åpna";
+        timeDiv.style.color = '#1fad4e';
+    }
+    else {
+        timeDiv.innerHTML = "Vi er stengt";
 
-    timeDiv.style.color = "#771424";
-}
+        timeDiv.style.color = "#771424";
+      }
+
+    }
+  }
