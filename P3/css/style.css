@@ -38,7 +38,7 @@ h1{
 
 
 
-/*  Header */      
+/*  Header */
 
 header{
     width: 80%;
@@ -63,7 +63,7 @@ header{
     cursor:pointer;
 }
 
-/*Syle for kontakt-knappen*/
+/*Style for kontakt-knappen*/
 #contact_button{
     background-color:  #b2722a;
     margin: 0px 0px 20px 10px;
@@ -91,6 +91,14 @@ header{
     width: 35%;
 }
 
+/* Styling for timeDiv */
+#timeDiv{
+  text-transform: uppercase;
+  float: right;
+  margin: 3px;
+  padding: 5px;
+}
+
 
 /*                      Nav.bar                   */
 
@@ -116,12 +124,12 @@ ul.nav li{
 
 /*Endre fargen til under nav.bar til orange*/
 ul#under_nav_1 li, ul#under_nav_2 li {
-    background-color: #b2722a; 
+    background-color: #b2722a;
 }
 
 /*Endre fargen på skriften i undernav.bar til grå når man har musa over den.*/
 ul#under_nav_1 li a:hover, ul#under_nav_2 li a:hover{
-    color: #1c3f26; 
+    color: #1c3f26;
 }
 
 /*Link i li elementene*/
@@ -136,7 +144,7 @@ ul.nav li a{
 
 /*Skjuler de to undermenyene*/
 #under_nav_1, #under_nav_2{
-    display: none; 
+    display: none;
     position:absolute;
     margin-left: -20%;
 }
@@ -145,7 +153,7 @@ ul.nav li a{
 ul.nav li a:hover {background-color: #b2722a;}
 
 /*Dette gjør nav.bar og resten av siden responsive. Setter at den går over til mobil-modus når skjermstørrelsen er mindre enn 600px. */
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 600px){
     ul.nav li {float: none;}
     #under_nav_1, #under_nav_2{position: relative;margin: 0;}
     #logo{width: 100%}
@@ -189,13 +197,13 @@ footer {
 }
 
 input[type=text], input[type=email], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
 }
 input[type=submit] {
@@ -298,7 +306,7 @@ legend{
     line-height: 110%;
     width:200px;
     margin-top: 5px;
-    
+
 }
 #hours{
     left:5px;
@@ -317,26 +325,26 @@ legend{
 #adress_content, #hours_content, #phone_content{
     font-weight: 700;
     text-align: center;
-} 
+}
 
 /*
 #adress_title, #hours_title{
     font-size: 30px;
     margin: 0;
     text-align: center;
-    
+
 }
 
 #horline_adress {
     padding: 0;
     border-radius: 5px;
     border-width:thin;
-    border-style:outset; 
+    border-style:outset;
     width: 100%;
 }
 */
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 600px){
     #adress,#hours,#phone{float:right; margin: 10px;};
     #hours{margin-top: 40px};
     #phone{margin-top: 10px};
@@ -366,13 +374,9 @@ legend{
 
 
 /*HISTORY PAGE*/
-#horline_histoy{
-    width: 20px;
-}
 
 #header_history{
     margin-top:4px;
-    margin-left:5%;
     font-size: 40px;
     margin-bottom: 0;
     color:#b2722a;
@@ -382,8 +386,8 @@ legend{
 }
 .column_history{
     float:left;
-    width: 32%;
-    padding: 5px;
+    width: 44%;
+    padding: 4px;
     height: 500px;
     margin-left: 2px;
 }
@@ -397,6 +401,23 @@ legend{
     margin-left: 10%;;
 }
 
+/*Info_Svalbard PAGE*/
+#header_info{
+    margin-top:4px;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:#b2722a;
+    margin-top: 20px;
+    align-content: center;
+    width: 100%;
+}
+
+#text_info{
+    height: 500px;
+    width: 44%;
+    padding: 4px;
+}
+/*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
 .supplies_div{
@@ -454,6 +475,6 @@ legend{
 }
 .partners_a:hover{
     color: #b2722a;
-    transition: all 0.3s ease 0s; 
+    transition: all 0.3s ease 0s;
 }
 /*Partners end*/

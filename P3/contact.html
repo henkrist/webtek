@@ -6,7 +6,7 @@
         <title>Sportscenteret - Contact</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
-        
+
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
@@ -14,7 +14,7 @@
 
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
-            
+
             <div id="language_selector">
                 <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
                 <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
@@ -22,6 +22,10 @@
 
             <!-- div for kontaktknapp lol-->
             <div id="contact_button"><a href="contact.html"><div class="no">KONTAKT</div><div class="en">CONTACT</div> </a></div>
+
+            <!-- div for openingHours- scripten -->
+            <div id="timeDiv">
+            </div>
 
             <!-- Øverste del av nav.bar-->
             <ul class="nav">
@@ -41,15 +45,15 @@
             </ul>
         </header>
 
-        
+
         <div class="content">
-            
-            
+
+
             <!-- Insert map function here -->
             <div id="map"></div>
-            
+
             <h3 id="header_contact"> <div class="en">Contact us!</div> <div class="no">Kontakt oss!</div> </h3>
-            
+
             <!-- Text, contact us -->
             <div id="intro_contact">
                <div class="en">
@@ -63,13 +67,13 @@
                 </p>
                 </div>
             </div>
-            
+
             <!-- Hours box -->
             <div id="hours">
                 <img id="clock_icon" alt="clock_icon" class="image" src="img/clock_icon.png" align="middle">
                 <!--<h3 id="hours_title"> Hours </h3>
                     <hr id="horline_adress"> -->
-                <div id="hours_content"> 
+                <div id="hours_content">
                    <div class="no">
                         <table style="width:100%">
                             <tr>
@@ -104,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Adress box -->
             <div id="adress">
                 <img id="map_icon" alt="map_icon" class="image" src="img/map_point.png" align="middle">
@@ -117,9 +121,9 @@
                 <!--<h3 id="adress_title"> Adress </h3> <hr id="horline_adress"> -->
                 <p id="phone_content">+47 95027048</p>
             </div>
-                        
+
             <!-- Contact scheme -->
-            
+
             <form  id="contact_form" action="process.asp" method="push" name="form1" onsubmit="return validateForm();" >
                    <legend><div class="en">Hello! Contact us:</div> <div class="no">Heisann! Kontakt oss:</div></legend>
                     <div class ="row" id="name">
@@ -177,22 +181,23 @@
                         <input id="submit_button" type="submit" value="Send mail"/>
                         <input id="reset_button" type="reset" value="Resett feltene"/>
                     </div>
-            </form> 
-              
+            </form>
+
         </div> <!-- Content -->
-       
+
         <footer>
             <p>Created by HHIM</p>
         </footer>
-        
+
         <!-- script til kart-->
         <script type="text/javascript" src="js/map.js"> </script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfANh0pOzgZE2_7V08uR-Zsx8lq_O7w1s&callback=initMap"></script>
         <script type="text/javascript" src="js/contactScheme.js"></script>
-        
+
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
+        <script type="text/javascript" src="js/openingHours.js"></script>
     </body>
 </html>
