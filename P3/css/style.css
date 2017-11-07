@@ -388,29 +388,26 @@ legend{
 /*HISTORY PAGE*/
 
 #header_history{
-    margin-top:4px;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-left: 5%;
     color:#b2722a;
-    margin-top: 20px;
     align-content: center;
     width: 100%;
 }
-.column_history{
+.text_history{
     float:left;
-    width: 44%;
-    padding: 4px;
-    height: 500px;
-    margin-left: 2px;
-}
-.row_history:after {
-    content: "";
-    display: table;
-    clear: both;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
 }
 
 #pictures_history{
-    margin-left: 10%;;
+  float:left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 80px;
 }
 
 /*Info_Svalbard PAGE*/
@@ -450,6 +447,7 @@ legend{
 
 #supplies_brands{
     position: absolute;
+    margin-bottom: 40px;
 }
 /*Supplies end*/
 
