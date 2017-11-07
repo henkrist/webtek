@@ -21,6 +21,7 @@ h1{
     margin-top: 20px;
     align-content: center;
     width: 100%;
+    font-size: 40px;
 }
 
 
@@ -180,7 +181,8 @@ ul.nav li a:hover {background-color: #b2722a;}
 /*Footer*/
 footer {
     position: fixed;
-    margin-bottom: 0px;
+    left:0;
+    bottom: 0;
     width: 100%;
     background-color: #efefef;
     text-align: center;
