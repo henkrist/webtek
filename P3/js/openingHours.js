@@ -20,7 +20,7 @@ function openingLanguage() {
         timeDiv.style.color = '#1fad4e';
     }
     else {
-        timeDiv.innerHTML = "Wer\'e closed";
+        timeDiv.innerHTML = "We\'re closed";
 
         timeDiv.style.color = "#771424";
     }
