@@ -384,8 +384,8 @@ legend{
 }
 .column_history{
     float:left;
-    width: 32%;
-    padding: 5px;
+    width: 44%;
+    padding: 4px;
     height: 500px;
     margin-left: 2px;
 }
@@ -408,6 +408,12 @@ legend{
     margin-top: 20px;
     align-content: center;
     width: 100%;
+}
+
+#text_info{
+    height: 500px;
+    width: 44%;
+    padding: 4px;
 }
 /*Info_Svalbard end*/
 
