@@ -1,4 +1,4 @@
-function scrollTo(document.body, document.getElementById("aboutus").offsetTop, 600) {
+/*function scrollTo(document.body, document.getElementById("aboutus").offsetTop, 600) {
     if (duration <= 0) return;
     var difference = to - element.scrollTop;
     var perTick = difference / duration * 10;
@@ -9,7 +9,16 @@ function scrollTo(document.body, document.getElementById("aboutus").offsetTop, 6
         scrollTo(element, to, duration - 10);
     }, 10);
 }
-
+*/
+/*
+$(document).ready(function (){
+    $("#button").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#aboutus").offset().top
+        }, 2000);
+    });
+});
+*/
 
 
 

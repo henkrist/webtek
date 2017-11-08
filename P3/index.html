@@ -49,12 +49,21 @@
             </ul>
         </header>
         
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function (){
+            $("#down").click(function (){
+                $('html, body').animate({
+                scrollTop: $("#aboutus").offset().top
+                }, 2000);
+            });
+        });
+        </script>
         
         <div class="content">
            <p id="tester">test</p>
             <div id="arrow_pos">
-                <div class="arrow" id="button" onClick="document.getElementById('aboutus').scrollIntoView();" >
+                <div class="arrow" id="button" >
                     <i id="down"></i>
                 </div> 
             </div>
@@ -85,6 +94,8 @@
         <script type="text/javascript" src="js/language.js"></script>
         <script type="text/javascript" src="js/preload.js"></script>
         <script type="text/javascript" src="js/smoothScroll.js"></script>
+        
+        
         
     </body>
 </html>
