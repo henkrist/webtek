@@ -548,3 +548,9 @@ i:hover{
     color: #b2722a;
 }
 /*Partners end*/
+
+/*Weapons start*/
+
+#weaponsP p{
+    margin-top: 20px;
+}
