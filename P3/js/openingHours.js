@@ -16,22 +16,22 @@ document.getElementById("timeDiv");
 function openingLanguage() {
   if (sessionStorage.getItem("language") == "en") {
     if (now > day[1] && now < day[2]) {
-        timeDiv.innerHTML = "We\'re open";
+        timeDiv.innerHTML = "Store is open";
         timeDiv.style.color = '#1fad4e';
     }
     else {
-        timeDiv.innerHTML = "We\'re closed";
+        timeDiv.innerHTML = "Store is closed";
 
         timeDiv.style.color = "#771424";
     }
   }
   else {
     if (now > day[1] && now < day[2]) {
-        timeDiv.innerHTML = "Vi er åpne";
+        timeDiv.innerHTML = "Butikken er åpen";
         timeDiv.style.color = '#1fad4e';
     }
     else {
-        timeDiv.innerHTML = "Vi er stengt";
+        timeDiv.innerHTML = "Butikken er stengt";
 
         timeDiv.style.color = "#771424";
       }
