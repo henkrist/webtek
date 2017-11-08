@@ -486,7 +486,7 @@ p{
     margin:auto;
 }
 
-#arrow_pos{
+/*#arrow_pos{
     margin-left: 49%;
     margin-right: 50%;
     margin-bottom: 20px;
@@ -494,7 +494,12 @@ p{
     padding: 15px;
     width:100%;
     box-sizing: border-box;
-}
+}*/
+
+#arrow_pos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 i{
     border: solid black;
@@ -570,3 +575,13 @@ i:hover{
 /*Weapons end*/
 =======
 >>>>>>> 3f78ed40ab3cc8d9b2cffd35a50692ba668383d0
+
+/* slideshow start*/ 
+
+canvas{
+    height: 100vh; 
+    width: 100vw; 
+    display: block;
+}
+
+/* slideshow end */
