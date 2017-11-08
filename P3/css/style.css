@@ -201,6 +201,7 @@ ul.nav li a:hover {
     #logo{width: 100%}
     #li_1,#li_2{border-radius: 0px 0px 0px 0px; margin-left: 0px;}
     ul.nav li a:hover {border-radius: 0px 0px 0px 0px;}
+    #under_nav_1, #under_nav_2{margin-top: 5px;}
 }
 
 /*Nav.bar slutt*/
@@ -211,7 +212,7 @@ ul.nav li a:hover {
 .content{
     width: 80%;
     height: auto;
-    margin: 30px auto 100px auto;
+    margin: 50px auto 50px auto;
 }
 
 
