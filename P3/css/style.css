@@ -506,16 +506,15 @@ i{
     padding: 10px;
 }
 .partner_div{
-    margin-bottom: 60px;
     padding-top: 20px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
 }
 
 .partners_a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    max-width: 600px;
-    margin: auto;
     transition: all 0.3s ease 0s;
 }
 .partners_a:hover{
