@@ -1,11 +1,8 @@
-
-/*
-
 //slideshow script index
 
 //array of image paths
 var imagePaths = [
-    ".../img/bilde2.jpg", ".../img/bilde3.jpg", ".../img/bilde1.jpg"
+    "img/bilde2.jpg", "img/bilde3.jpg", "img/bilde1.jpg"
 ];
 
 //variables referring to canvas and canvas context
@@ -36,15 +33,12 @@ function switchImage() {
     revealTimer = setInterval(revealImage, 100);
 }
 
-//action when window loads
-window.onload = function () {
-    showCanvas = document.getElementById('showCanvas');
-    showCanvasCtx = showCanvas.getContext('2d');
+showCanvas = document.getElementById('showCanvas');
+showCanvasCtx = showCanvas.getContext('2d');
 
-    img.setAttribute('width', '600');
-    img.setAttribute('height', '400');
-    switchImage();
+img.setAttribute('width', '600');
+img.setAttribute('height', '400');
+switchImage();
 
-    // start the animation
-    setInterval(switchImage, 3000);
-}
+// start the animation
+setInterval(switchImage, 3000);
