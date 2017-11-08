@@ -28,7 +28,7 @@ h1{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #b2722a;
+    background-color: #f3f3f5;
     float:left;
     z-index: 1000;
     transition: opacity 0.2s;
@@ -472,6 +472,10 @@ legend{
 
 /*Slideshow index end*/
 
+#contact_hyper{
+    color: #b2722a;
+    text-decoration: none;
+}
 
 #tester{
     padding-top: 400px;
