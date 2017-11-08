@@ -413,6 +413,10 @@ legend{
     margin-top: 20px;
     align-content: center;
 }
+#pictures_info{
+  float:left;
+  margin-bottom: 80px;
+}
 /*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
