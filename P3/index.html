@@ -10,12 +10,12 @@
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
     <body onload="setTimer();initLang();">
-        
+
         <div id="all_loader">
             <div id="loader">
             </div>
         </div>
-        
+
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
 
@@ -41,34 +41,57 @@
                 <li><a href="supplies.html"><div class="no">Leverandører</div><div class="en">Supplies</div></a></li>
                 <li><a href="weapons.html"><div class="no">Våpenleie og regler</div><div class="en">Weapon rental and rules</div></a></li>
                 <li><a href="history.html"><div class="no">Historie</div><div class="en">History</div></a></li>
-                <li><a href="about.html"><div class="no">Om oss</div><div class="en">About us</div></a></li>
             </ul>
             <ul class="nav" id="under_nav_2">
                 <li><a href="partners.html"><div class="no">Samarbeidspartenere</div><div class="en">Partners</div></a>
                 <li><a href="info_svalbard.html"><div class="no">Info om Svalbard</div><div class="en">Info about Svalbard</div></a></li>
             </ul>
         </header>
+
+
+
+
         
-        
-        
+
+        <!-- Dette er veldig ikke lov, men får ikke til en annen metode. Se smoothScroll.js for annen code -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function (){
+            $("#down").click(function (){
+                $('html, body').animate({
+                scrollTop: $("#aboutus").offset().top
+                }, 2000);
+            });
+        });
+        </script>
         <div class="content">
-           
             <div id="arrow_pos">
-                <div class="arrow" id="button" onClick="document.getElementById('aboutus').scrollIntoView();">
+                <div class="arrow" id="button" >
                     <i id="down"></i>
-                </div> 
+                </div>
             </div>
+            <div class="no">
+                <p id="aboutus">
+                    Helt siden 1995 har Sportscenteret drevet med salg av sportsrelaterte artikler på Svalbard. Hos oss finner du det du trenger av utstyr, deriblant våpen, sko, ski, sykkel, bekledning og annet friluftsrelatert utstyr.<br> 
 
-            <p id="aboutus">
-                Helt siden 1995 har Sportscenteret drevet med salg av sportsrelaterte artikler på Svalbard. Hos oss finner du det du trenger av utstyr, deriblant våpen, sko, ski, sykkel, bekledning og annet friluftsrelatert utstyr.<br> 
-                
-                Send oss gjerne en e-post eller ring dersom du skulle ha spørsmål. Vi kan da også gi eventuelle pristilbud på varene vi tilbyr. Dersom det er noe vi ikke har på lager, kan vi skaffe det på kort tid.<br> 
 
-                Hvis du har tenkt deg til Svalbard, ring oss 1-2 uker før du reiser så vil vi ha varen klar når du kommer.<br>
-            </p>
-            
+                    <a id="contact_hyper" href="contact.html">Send oss en e-post </a>eller ring dersom du skulle ha spørsmål. Vi kan da også gi eventuelle pristilbud på varene vi tilbyr. Dersom det er noe vi ikke har på lager, kan vi skaffe det på kort tid.<br> 
+
+                    Hvis du har tenkt deg til Svalbard, ring oss 1-2 uker før du reiser så vil vi ha varen klar når du kommer.<br>
+                </p>
+            </div>
+            <div class="en">
+                <p id="aboutus"> 
+                   Since 1995, Sportscentet has been selling sports related goods to the people of Svalbard. In our store, you can find all you need within gear, among this weapons, shoes, skis, bicycles, clothes and much more.<br>
+                   
+                   <a id="contact_hyper" href="contact.html">Send us an email </a> using the contact page, or give us a call for information about our assortment. We gladly take custom orders.<br>
+                   
+                   If you are planning a trip to Svalbard, please call us 1-2 weeks ahead of time so we can order your product request.
+                   
+                </p>
+            </div>
         </div>
-        
+
         <!-- slideshow -->
         <canvas id='showCanvasIndex'>
 			Canvas Not Supported
@@ -84,6 +107,7 @@
         <script type="text/javascript" src="js/slideshow.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
         <script type="text/javascript" src="js/preload.js"></script>
-
+        <script type="text/javascript" src="js/smoothScroll.js"></script>
+        
     </body>
 </html>

@@ -11,7 +11,7 @@ var imagePaths = [
 var showCanvas = null;
 var showCanvasCtx = null;
 
-//image responsible for loading every image from folder. 
+//image responsible for loading every image from folder.
 var img = document.createElement("img");
 var currentImage = 0;
 var revealTimer;
@@ -39,11 +39,11 @@ function switchImage() {
 window.onload = function () {
     showCanvas = document.getElementById('showCanvas');
     showCanvasCtx = showCanvas.getContext('2d');
-    
+
     img.setAttribute('width', '600');
     img.setAttribute('height', '400');
     switchImage();
-    
+
     // start the animation
     setInterval(switchImage, 3000);
 }
