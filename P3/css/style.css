@@ -481,6 +481,10 @@ p{
     margin-left: 49%;
     margin-right: 50%;
     margin-bottom: 20px;
+    position: relative;
+    padding: 15px;
+    width:100%;
+    box-sizing: border-box;
 }
 
 i{
@@ -498,6 +502,29 @@ i{
 #aboutus{
     margin-top: 20px;
 }
+#arrow_pos:hover{
+    animation-play-state:running;
+    -webkit-animation: jump 2s linear infinite;
+    animation: jump 2s linear infinite;
+}
+i:hover{
+    cursor: pointer;
+    
+}
+@-webkit-keyframes jump {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    75%  {top: 2px}
+    100% {top: 0px;}
+}
+@keyframes jump {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    75%  {top: 2px}
+    100% {top: 0px;}
+}
+
+
 
 /*Partners start*/
 .partners_img{
