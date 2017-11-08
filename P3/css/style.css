@@ -411,6 +411,9 @@ legend{
   float:left;
   margin-bottom: 80px;
 }
+#pictures_history img{
+    width: 100%;
+}
 
 /*Info_Svalbard PAGE*/
 #header_info{
