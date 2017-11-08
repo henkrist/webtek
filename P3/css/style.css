@@ -441,19 +441,13 @@ legend{
 
 
 
-/*Slideshow start */
-.slides {
+/*Slideshow index start
+
+#showCanvasIndex{
     width: 100%;
 }
 
-.contentSlideshow {
-    margin: 0px;
-}
-
-.slides:not(:first-child) {
-    display: none;
-}
-/*Slideshow end*/
+Slideshow index end*/
 
 /*Partners start*/
 .partners_img{
