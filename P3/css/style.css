@@ -13,14 +13,13 @@ body {
 }
 
 h1{
-    margin-top:4px;
     font-size: 50px;
-    margin-bottom: 0;
     color:#b2722a;
-    margin-top: 20px;
     align-content: center;
     width: 100%;
     font-size: 40px;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 #all_loader{
@@ -216,6 +215,8 @@ ul.nav li a:hover {
 }
 
 
+
+
 /*Footer*/
 footer {
     position: fixed;
@@ -228,6 +229,10 @@ footer {
 
 
 /*CONTACT PAGE */
+
+#contact_h1{
+    max-width: 100%;
+}
 
 #map {
     height: 400px;
@@ -432,9 +437,9 @@ legend{
 
 /*SUPPLIES PAGE*/
 .supplies_div{
-    height: 160px;
-    width: 200px;
-    margin: 10px 10px;
+    height: 141px;
+    width: 180px;
+    margin: 20px 10px;
     float: left;
 }
 
@@ -448,8 +453,9 @@ legend{
 }
 
 #supplies_brands{
-    position: absolute;
-    margin-bottom: 40px;
+    max-width: 600px;
+    height: auto;
+    margin: auto auto 60px auto;
 }
 /*Supplies end*/
 
@@ -508,9 +514,11 @@ i{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    transition: all 0.3s ease 0s;
 }
 .partners_a:hover{
     color: #b2722a;
-    transition: all 0.3s ease 0s;
 }
 /*Partners end*/
