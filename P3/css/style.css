@@ -421,7 +421,7 @@ legend{
 }
 
 /*Info_Svalbard PAGE*/
-#header_info{
+/*#header_info{
     margin-top:4px;
     font-size: 40px;
     margin-bottom: 0;
@@ -432,7 +432,20 @@ legend{
 #pictures_info{
   float:left;
   margin-bottom: 80px;
+}*/
+#info_img{
+    width: 100%;
 }
+#info_img_div{
+    max-width: 600px;
+    margin: auto;
+}
+
+.info_content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
@@ -549,8 +562,12 @@ i:hover{
 }
 /*Partners end*/
 
+
+
 /*Weapons start*/
 
 #weaponsP p{
     margin-top: 20px;
 }
+
+/*Weapons end*/
