@@ -12,7 +12,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-
 h1{
     margin-top:4px;
     font-size: 50px;
@@ -226,7 +225,6 @@ footer {
     background-color: #efefef;
     text-align: center;
 }
-
 
 
 /*CONTACT PAGE */
@@ -456,7 +454,37 @@ legend{
     width: 100%;
 }
 
+
 Slideshow index end*/
+
+
+
+p{
+    max-width: 600px;
+    margin:auto;
+}
+
+#arrow_pos{
+    margin-left: 49%;
+    margin-right: 50%;
+    margin-bottom: 20px;
+}
+
+i{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+}
+
+#down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#aboutus{
+    margin-top: 20px;
+}
 
 /*Partners start*/
 .partners_img{
