@@ -471,7 +471,9 @@ legend{
 Slideshow index end*/
 
 
-
+#tester{
+    padding-top: 400px;
+}
 p{
     max-width: 600px;
     margin:auto;
@@ -481,6 +483,10 @@ p{
     margin-left: 49%;
     margin-right: 50%;
     margin-bottom: 20px;
+    position: relative;
+    padding: 15px;
+    width:100%;
+    box-sizing: border-box;
 }
 
 i{
@@ -498,6 +504,29 @@ i{
 #aboutus{
     margin-top: 20px;
 }
+#arrow_pos:hover{
+    animation-play-state:running;
+    -webkit-animation: jump 2s linear infinite;
+    animation: jump 2s linear infinite;
+}
+i:hover{
+    cursor: pointer;
+    
+}
+@-webkit-keyframes jump {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    75%  {top: 2px}
+    100% {top: 0px;}
+}
+@keyframes jump {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    75%  {top: 2px}
+    100% {top: 0px;}
+}
+
+
 
 /*Partners start*/
 .partners_img{
@@ -506,19 +535,24 @@ i{
     padding: 10px;
 }
 .partner_div{
-    margin-bottom: 60px;
     padding-top: 20px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
 }
 
 .partners_a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    max-width: 600px;
-    margin: auto;
     transition: all 0.3s ease 0s;
 }
 .partners_a:hover{
     color: #b2722a;
 }
 /*Partners end*/
+
+/*Weapons start*/
+
+#weaponsP p{
+    margin-top: 20px;
+}

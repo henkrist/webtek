@@ -41,25 +41,45 @@
                 <li><a href="supplies.html"><div class="no">Leverandører</div><div class="en">Supplies</div></a></li>
                 <li><a href="weapons.html"><div class="no">Våpenleie og regler</div><div class="en">Weapon rental and rules</div></a></li>
                 <li><a href="history.html"><div class="no">Historie</div><div class="en">History</div></a></li>
-                <li><a href="about.html"><div class="no">Om oss</div><div class="en">About us</div></a></li>
             </ul>
             <ul class="nav" id="under_nav_2">
                 <li><a href="partners.html"><div class="no">Samarbeidspartenere</div><div class="en">Partners</div></a>
                 <li><a href="info_svalbard.html"><div class="no">Info om Svalbard</div><div class="en">Info about Svalbard</div></a></li>
             </ul>
         </header>
+<<<<<<< HEAD
 
 
 
         <div class="content">
 
+=======
+        
+        <!-- Dette er veldig ikke lov, men får ikke til en annen metode. Se smoothScroll.js for annen code -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function (){
+            $("#down").click(function (){
+                $('html, body').animate({
+                scrollTop: $("#aboutus").offset().top
+                }, 2000);
+            });
+        });
+        </script>
+        
+        
+        <div class="content">
+>>>>>>> 2d32cb08e709b0d461556c248d9d92f142007050
             <div id="arrow_pos">
-                <div class="arrow">
+                <div class="arrow" id="button" >
                     <i id="down"></i>
                 </div>
             </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2d32cb08e709b0d461556c248d9d92f142007050
             <p id="aboutus">
                 Helt siden 1995 har Sportscenteret drevet med salg av sportsrelaterte artikler på Svalbard. Hos oss finner du det du trenger av utstyr, deriblant våpen, sko, ski, sykkel, bekledning og annet friluftsrelatert utstyr.<br>
 
@@ -85,6 +105,9 @@
         <script type="text/javascript" src="js/slideshow.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
         <script type="text/javascript" src="js/preload.js"></script>
-
+        <script type="text/javascript" src="js/smoothScroll.js"></script>
+        
+        
+        
     </body>
 </html>
