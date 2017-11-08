@@ -10,18 +10,5 @@
     }, 10);
 }
 */
-/*
-$(document).ready(function (){
-    $("#button").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#aboutus").offset().top
-        }, 2000);
-    });
-});
-*/
-
-
-
-
 
 /*onClick="document.getElementById('aboutus').scrollIntoView();"*/

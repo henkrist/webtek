@@ -316,6 +316,7 @@ legend{
     width: 30%;
     float:left;
     margin: 4px;
+    margin-bottom: 20px;
 }
 
 #contact_img{
@@ -370,10 +371,11 @@ legend{
 }
 
 @media screen and (max-width: 600px){
-    #adress,#hours,#phone{float:right; margin: 10px;};
-    #hours{margin-top: 40px};
-    #phone{margin-top: 10px};
-    #intro_content{float:left; width: 60%;};
+    #adress,#hours,#phone{width: 100%;}
+    #hours{margin-top: 40px}
+    #phone{margin-top: 10px}
+    #intro_contact{width: 100%;}
+    #intro_content{float:left; width: 100%;}
 }
 #map_icon{
     height: 50px;
@@ -408,7 +410,7 @@ legend{
 }
 
 /*Info_Svalbard PAGE*/
-#header_info{
+/*#header_info{
     margin-top:4px;
     font-size: 40px;
     margin-bottom: 0;
@@ -419,7 +421,20 @@ legend{
 #pictures_info{
   float:left;
   margin-bottom: 80px;
+}*/
+#info_img{
+    width: 100%;
 }
+#info_img_div{
+    max-width: 600px;
+    margin: auto;
+}
+
+.info_content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
@@ -567,8 +582,15 @@ i:hover{
 }
 /*Partners end*/
 
+
+
 /*Weapons start*/
 
 #weaponsP p{
     margin-top: 20px;
 }
+<<<<<<< HEAD
+
+/*Weapons end*/
+=======
+>>>>>>> 3f78ed40ab3cc8d9b2cffd35a50692ba668383d0
