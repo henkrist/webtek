@@ -199,6 +199,8 @@ ul.nav li a:hover {
     ul.nav li {float: none;}
     #under_nav_1, #under_nav_2{position: relative;margin: 0;}
     #logo{width: 100%}
+    #li_1,#li_2{border-radius: 0px 0px 0px 0px; margin-left: 0px;}
+    ul.nav li a:hover {border-radius: 0px 0px 0px 0px;}
 }
 
 /*Nav.bar slutt*/
@@ -209,7 +211,7 @@ ul.nav li a:hover {
 .content{
     width: 80%;
     height: auto;
-    margin: 30px auto 50px auto;
+    margin: 30px auto 100px auto;
 }
 
 
