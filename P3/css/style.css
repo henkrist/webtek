@@ -202,6 +202,7 @@ ul.nav li a:hover {
     #li_1,#li_2{border-radius: 0px 0px 0px 0px; margin-left: 0px;}
     ul.nav li a:hover {border-radius: 0px 0px 0px 0px;}
     #under_nav_1, #under_nav_2{margin-top: 5px;}
+    #timeDiv{width: 100%; text-align: center;}
 }
 
 /*Nav.bar slutt*/
