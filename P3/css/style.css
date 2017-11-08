@@ -13,14 +13,13 @@ body {
 }
 
 h1{
-    margin-top:4px;
     font-size: 50px;
-    margin-bottom: 0;
     color:#b2722a;
-    margin-top: 20px;
     align-content: center;
     width: 100%;
     font-size: 40px;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 #all_loader{
@@ -370,8 +369,6 @@ legend{
     #adress,#hours,#phone{float:right; margin: 10px;};
     #hours{margin-top: 40px};
     #phone{margin-top: 10px};
-    #intro_contact{
-        width: 100%;}
     #intro_content{float:left; width: 60%;};
 }
 #map_icon{
@@ -436,9 +433,9 @@ legend{
 
 /*SUPPLIES PAGE*/
 .supplies_div{
-    height: 160px;
-    width: 200px;
-    margin: 10px 10px;
+    height: 141px;
+    width: 180px;
+    margin: 20px 10px;
     float: left;
 }
 
@@ -452,8 +449,9 @@ legend{
 }
 
 #supplies_brands{
-    position: absolute;
-    margin-bottom: 40px;
+    max-width: 600px;
+    height: auto;
+    margin: auto auto 60px auto;
 }
 /*Supplies end*/
 
