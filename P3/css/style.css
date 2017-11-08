@@ -217,6 +217,8 @@ ul.nav li a:hover {
 }
 
 
+
+
 /*Footer*/
 footer {
     position: fixed;
@@ -370,6 +372,8 @@ legend{
     #adress,#hours,#phone{float:right; margin: 10px;};
     #hours{margin-top: 40px};
     #phone{margin-top: 10px};
+    #intro_contact{
+        width: 100%;}
     #intro_content{float:left; width: 60%;};
 }
 #map_icon{
