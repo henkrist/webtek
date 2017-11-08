@@ -157,6 +157,8 @@ ul.nav li{
 /*Endre musikonet til å immitere en link*/
 #li_1,#li_2{
     cursor:pointer;
+    margin-left: 5px;
+    border-radius: 4px 4px 0px 0px;
 }
 
 /*Endre fargen til under nav.bar til orange*/
@@ -187,7 +189,10 @@ ul.nav li a{
 }
 
 /*endrer hoverfargen*/
-ul.nav li a:hover {background-color: #b2722a;}
+ul.nav li a:hover {
+    background-color: #b2722a;
+    border-radius: 4px 4px 0px 0px;
+}
 
 /*Dette gjør nav.bar og resten av siden responsive. Setter at den går over til mobil-modus når skjermstørrelsen er mindre enn 600px. */
 @media screen and (max-width: 600px){
