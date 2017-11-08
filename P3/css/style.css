@@ -230,6 +230,10 @@ footer {
 
 /*CONTACT PAGE */
 
+#contact_h1{
+    max-width: 100%;
+}
+
 #map {
     height: 400px;
     width: 100%;
@@ -510,9 +514,11 @@ i{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    transition: all 0.3s ease 0s;
 }
 .partners_a:hover{
     color: #b2722a;
-    transition: all 0.3s ease 0s;
 }
 /*Partners end*/
