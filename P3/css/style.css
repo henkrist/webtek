@@ -316,6 +316,7 @@ legend{
     width: 30%;
     float:left;
     margin: 4px;
+    margin-bottom: 20px;
 }
 
 #contact_img{
@@ -370,10 +371,11 @@ legend{
 }
 
 @media screen and (max-width: 600px){
-    #adress,#hours,#phone{float:right; margin: 10px;};
-    #hours{margin-top: 40px};
-    #phone{margin-top: 10px};
-    #intro_content{float:left; width: 60%;};
+    #adress,#hours,#phone{width: 100%;}
+    #hours{margin-top: 40px}
+    #phone{margin-top: 10px}
+    #intro_contact{width: 100%;}
+    #intro_content{float:left; width: 100%;}
 }
 #map_icon{
     height: 50px;
