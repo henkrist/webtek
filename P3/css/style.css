@@ -399,25 +399,12 @@ legend{
 
 /*HISTORY PAGE*/
 
-#header_history{
-  margin-top:4px;
-  font-size: 40px;
-  margin-bottom: 0;
-  color:#b2722a;
-  margin-top: 20px;
-  align-content: center;
-}
-.text_history{
-    float:left;
-    margin-bottom: 20px;
-}
-
 #pictures_history{
-  float:left;
-  margin-bottom: 80px;
+  margin: 20px auto;
+  max-width: 600px;
 }
 #pictures_history img{
-    width: 100%;
+  width: 100%;
 }
 
 /*Info_Svalbard PAGE*/
@@ -511,7 +498,7 @@ i{
 }
 i:hover{
     cursor: pointer;
-    
+
 }
 @-webkit-keyframes jump {
     0%   {top: 0px;}
