@@ -9,14 +9,19 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
-    <body onload="initLang()">
-
+    <body onload="setTimer();initLang();">
+        
+        <div id="all_loader">
+            <div id="loader">
+            </div>
+        </div>
+        
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
 
             <div id="language_selector">
-                <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
-                <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
+                <div onclick="switchLang('no')"><img id="lang_img_no" src="img/norge.png"></div>
+                <div onclick="switchLang('en')"><img id="lang_img_en" src="img/gb.png"></div>
             </div>
 
             <!-- div for kontaktknapp lol-->
@@ -44,14 +49,31 @@
             </ul>
         </header>
         
-        <div class="contentSlideshow">   <!-- slideshow content-->
-            <div id="slideShow" class="slideShow">
-                <img class="slides" src="img/bilde1.jpg">
-                <img class="slides" src="img/bilde2.JPG">
-                <img class="slides" src="img/bilde3.jpg">
-                <img class="slides" src="img/bilde4.JPG">
+        
+        
+        <div class="content">
+           
+            <div id="arrow_pos">
+                <div class="arrow">
+                    <i id="down"></i>
+                </div> 
             </div>
+
+            
+            <p id="aboutus">
+                Helt siden 1995 har Sportscenteret drevet med salg av sportsrelaterte artikler på Svalbard. Hos oss finner du det du trenger av utstyr, deriblant våpen, sko, ski, sykkel, bekledning og annet friluftsrelatert utstyr.<br> 
+                
+                Send oss gjerne en e-post eller ring dersom du skulle ha spørsmål. Vi kan da også gi eventuelle pristilbud på varene vi tilbyr. Dersom det er noe vi ikke har på lager, kan vi skaffe det på kort tid.<br> 
+
+                Hvis du har tenkt deg til Svalbard, ring oss 1-2 uker før du reiser så vil vi ha varen klar når du kommer.<br>
+            </p>
+            
         </div>
+        
+        <!-- slideshow -->
+        <canvas id='showCanvasIndex'>
+			Canvas Not Supported
+		</canvas>
 
         <footer>
             <p>Created by HHIM</p>
@@ -62,6 +84,7 @@
         <script type="text/javascript" src="js/navbar.js"></script>
         <script type="text/javascript" src="js/slideshow.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
+        <script type="text/javascript" src="js/preload.js"></script>
 
     </body>
 </html>

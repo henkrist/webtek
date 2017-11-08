@@ -22,8 +22,12 @@ function setLang(){
     
     if(sessionStorage.getItem("language") == "en"){
         new_lang = document.getElementsByClassName("no");
+        document.getElementById("lang_img_en").style.opacity = "1";
+        document.getElementById("lang_img_no").style.opacity = "0.3";
     }else{
         new_lang = document.getElementsByClassName("en");
+        document.getElementById("lang_img_en").style.opacity = "0.3";
+        document.getElementById("lang_img_no").style.opacity = "1";
     }
     
     for(var i = 0; i<current_lang.length; i++){
@@ -32,6 +36,7 @@ function setLang(){
     for(var i = 0; i<new_lang.length; i++){
         new_lang[i].style.display = "none";
     }
+    
     openingLanguage();
 }
 

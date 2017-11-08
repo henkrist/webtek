@@ -9,14 +9,19 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     </head>
-    <body onload="initLang()">
-
+    <body onload="setTimer();initLang();">
+        
+        <div id="all_loader">
+            <div id="loader">
+            </div>
+        </div>
+        
         <header>
             <a href="index.html"><img id="logo" src="img/logo.png" alt="logo" /></a> <!--logoen til SportsCenteret / ikke ferdig-->
 
             <div id="language_selector">
-                <div onclick="switchLang('no')"><img src="img/no_icon.png"></div>
-                <div onclick="switchLang('en')"><img src="img/en_icon.png"></div>
+                <div onclick="switchLang('no')"><img id="lang_img_no" src="img/norge.png"></div>
+                <div onclick="switchLang('en')"><img id="lang_img_en" src="img/gb.png"></div>
             </div>
 
             <!-- div for kontaktknapp lol-->
@@ -103,6 +108,6 @@
         <script type="text/javascript" src="js/slideshow.js"></script>
         <script type="text/javascript" src="js/language.js"></script>
         <script type="text/javascript" src="js/openingHours.js"></script>
-
+        <script type="text/javascript" src="js/preload.js"></script>
     </body>
 </html>
