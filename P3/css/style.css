@@ -507,6 +507,11 @@ p{
     justify-content: center;
     margin-bottom: 0;
 }
+
+#contentIndex {
+    margin-top: 0px;
+}
+
 i {
     border: solid white;
     border-width: 0 5px 5px 0;
