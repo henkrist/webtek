@@ -1,3 +1,5 @@
+/**/
+
 //slideshow script index
 
 //array of image paths
@@ -28,7 +30,7 @@ function revealImage() {
     if (showCanvasCtx.globalAlpha >= 0.99) {
         clearInterval(revealTimer);
         showCanvasCtx.restore();
-        setTimeout(switchImage, 3000);
+        setTimeout(switchImage, 5000);
     }
 }
 
