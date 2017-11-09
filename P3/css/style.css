@@ -500,15 +500,15 @@ p{
     align-items: center;
     display: flex;
     justify-content: center;
-
-i{
+}
+i {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 7px;
 }
 
-#down {
+#down{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -523,7 +523,6 @@ i{
 }
 i:hover{
     cursor: pointer;
-
 }
 @-webkit-keyframes jump {
     0%   {top: 0px;}
@@ -570,11 +569,9 @@ i:hover{
 #weaponsP p{
     margin-top: 20px;
 }
-<<<<<<< HEAD
+
 
 /*Weapons end*/
-=======
->>>>>>> 3f78ed40ab3cc8d9b2cffd35a50692ba668383d0
 
 /* slideshow start*/ 
 
