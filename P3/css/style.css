@@ -485,8 +485,8 @@ p{
     max-width: 600px;
     margin:auto;
 }
-
-/*#arrow_pos{
+/*
+#arrow_pos{
     margin-left: 49%;
     margin-right: 50%;
     margin-bottom: 20px;
@@ -505,7 +505,7 @@ i {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 7px;
+    padding: 20px;
 }
 
 #down{
@@ -516,7 +516,7 @@ i {
 #aboutus{
     margin-top: 20px;
 }
-#arrow_pos:hover{
+#button:hover{
     animation-play-state:running;
     -webkit-animation: jump 2s linear infinite;
     animation: jump 2s linear infinite;
