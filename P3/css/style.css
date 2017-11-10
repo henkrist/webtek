@@ -233,7 +233,7 @@ footer {
 
 /*CONTACT PAGE */
 
-#contact_h1{
+#contact_h1 h1{
     max-width: 100%;
 }
 
@@ -378,7 +378,7 @@ legend{
     #hours{margin-top: 40px}
     #phone{margin-top: 10px}
     #intro_contact{width: 100%;}
-    #intro_content{float:left; width: 100%;}
+    .intro_content{float:left; width: 100%;}
 }
 #map_icon{
     height: 50px;
