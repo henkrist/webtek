@@ -544,7 +544,6 @@ i:hover{
 /*Partners end*/
 
 
-
 /*Weapons start*/
 
 #weaponPics {
@@ -553,7 +552,11 @@ i:hover{
     width: 52%;
     display: flex;
     justify-content: center;
-    margin: 20px auto 20px auto;
+    margin: 15px auto 15px auto;
+}
+
+#weaponsP p {
+    margin: 15px auto 10px auto;
 }
 
 /*Weapons end*/
