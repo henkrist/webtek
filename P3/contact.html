@@ -78,9 +78,7 @@
 
             <!-- Hours box -->
             <div id="hours">
-                <img id="clock_icon" alt="clock_icon" class="image" src="img/clock_icon.png" align="middle">
-                <!--<h3 id="hours_title"> Hours </h3>
-                    <hr id="horline_adress"> -->
+                <img id="clock_icon" alt="clock_icon" class="image" src="img/clock_icon.png">
                 <div id="hours_content">
                    <div class="no">
                         <table style="width:100%">
@@ -119,28 +117,29 @@
 
             <!-- Adress box -->
             <div id="adress">
-                <img id="map_icon" alt="map_icon" class="image" src="img/map_point.png" align="middle">
-                <!--<h3 id="adress_title"> Adress </h3> <hr id="horline_adress"> -->
+                <img id="map_icon" alt="map_icon" class="image" src="img/map_point.png">
                 <p id="adress_content">Sportscenteret Svalbard <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
                 </p>
             </div>
             <div id="phone">
-                <img id="phone_icon" alt="phone_icon" class="image" src="img/phone_icon.png" align="middle">
-                <!--<h3 id="adress_title"> Adress </h3> <hr id="horline_adress"> -->
+                <img id="phone_icon" alt="phone_icon" class="image" src="img/phone_icon.png">
                 <p id="phone_content">+47 95027048</p>
             </div>
 
             <!-- Contact scheme -->
 
             <form  id="contact_form" name="form1" onsubmit="return validateForm();" >
-                   <legend><div class="en">Send us an email:</div> <div class="no">Send oss en mail:</div></legend>
+                  <fieldset>
+                  <div class="en"><legend>Send us an email:</legend></div>
+                  <div class="no"><legend>Send oss en mail:</legend></div>
                     <div class ="row" id="name">
-                        <label for="fname"><div class="en">Full name</div> <div class="no">Fullt navn</div> </label><br>
+                        <div class="en"><label> Full name:</label><br></div>
+                         <div class="no"><label> Fullt navn:</label><br></div>
                         <div class="en">
-                            <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
+                            <input type="text" id="fname_en" class="input" name="name" placeholder="Your name..." size="30" required>
                         </div>
                         <div class="no">
-                            <input type="text" id="fname" class="input" name="name" placeholder="Ditt navn..." size="30" required>
+                            <input type="text" id="fname_no" class="input" name="name" placeholder="Ditt navn..." size="30" required>
                         </div>
                     </div>
                     <label for="email">Email</label><br>
@@ -154,7 +153,7 @@
                     </div>
                     <div class="en">
                         <label for="subject">Subject</label><br>
-                        <select id="subject" name="subject">
+                        <select id="subject_en" name="subject">
                             <option value="" disabled selected>Select your inquiry</option>
                             <option value="order">Ordering a product</option>
                             <option value="complaint">Warranty and other complaints</option>
@@ -164,7 +163,7 @@
                     </div>
                     <div class="no">
                         <label for="subject">Emne</label><br>
-                        <select id="subject" name="subject">
+                        <select id="subject_no" name="subject">
                             <option value="" disabled selected>Velg hendvendelse</option>
                             <option value="order">Bestille et produkt</option>
                             <option value="complaint">Garanti og andre klager</option>
@@ -172,23 +171,27 @@
                             <option value="other">Annet</option>
                         </select><br>
                     </div>
-                    <label for="message"><div class="en">What's up?</div> <div class="no">Hva skjer?</div></label>
+                    
+                    <div class="en"><label>What's up?</label></div>
+                    <div class="no"><label>Hva skjer?</label></div>
+                
                     <div class="row">
                         <div class="en">
-                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
+                            <textarea id="message_en" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
                         </div>
                         <div class="no">
-                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Skriv din melding her..."></textarea>
+                            <textarea id="message_no" class="input" name="message" rows="7" cols="30" placeholder="Skriv din melding her..."></textarea>
                         </div>
                     </div>
                     <div class="en">
-                        <input id="submit_button" type="submit" value="Send email"/>
-                        <input id="reset_button" type="reset" value="Reset fields"/>
+                        <input id="submit_button_en" type="submit" value="Send email"/>
+                        <input id="reset_button_en" type="reset" value="Reset fields"/>
                     </div>
                     <div class="no">
-                        <input id="submit_button" type="submit" value="Send mail" disabled/>
-                        <input id="reset_button" type="reset" value="Resett feltene"/>
+                        <input id="submit_button_no" type="submit" value="Send mail" disabled/>
+                        <input id="reset_button_no" type="reset" value="Resett feltene"/>
                     </div>
+                    </fieldset>
             </form>
             
             <!-- Alternativ formstruktur

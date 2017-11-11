@@ -303,6 +303,9 @@ input[type=reset]:hover {
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
+fieldset{
+    border-style: hidden;
+}
 
 legend{
     width:25%;
@@ -386,6 +389,7 @@ legend{
     display: block;
     margin: auto;
     margin-bottom: 13px;
+    align-self: center;
 }
 #clock_icon{
     height: 50px;
@@ -393,6 +397,7 @@ legend{
     display: block;
     margin: auto;
     margin-bottom: 13px;
+    align-self: center;
 }
 #phone_icon{
     height: 50px;
@@ -400,6 +405,7 @@ legend{
     display: block;
     margin: auto;
     margin-bottom: 13px;
+    align-self: center;
 }
 
 
