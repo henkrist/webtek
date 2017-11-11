@@ -1,5 +1,3 @@
-/**/
-
 //slideshow script index
 
 //array of image paths
