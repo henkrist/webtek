@@ -18,6 +18,12 @@ function openingLanguage() {
     if (now > day[1] && now < day[2]) {
         timeDiv.innerHTML = "Store is open";
         timeDiv.style.color = '#1fad4e';
+        /* Sjekker om det er innen en time
+        if ( (day[2]-now)<=1 && (day[2]-now)>0 ){
+        timeDiv.innerHTML = "Store closing soon"
+        timeDiv.style.color = '#ff8913';
+        }
+        */
     }
     else {
         timeDiv.innerHTML = "Store is closed";
@@ -29,6 +35,12 @@ function openingLanguage() {
     if (now > day[1] && now < day[2]) {
         timeDiv.innerHTML = "Butikken er åpen";
         timeDiv.style.color = '#1fad4e';
+        /* Sjekker om det er innen en time
+        if ( (day[2]-now)<=1 && (day[2]-now)>0 ){
+        timeDiv.innerHTML = "Butikken stenger snart"
+        timeDiv.style.color = '#ff8913';
+        }
+        */
     }
     else {
         timeDiv.innerHTML = "Butikken er stengt";
