@@ -447,12 +447,38 @@ legend{
 
 
 
-/*Slideshow index start
+/*Slideshow index start*/
 
-#showCanvasIndex{
+#slidesx{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
+    list-style-type: none;
 }
-*/
+
+.slidex{
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    margin: 0px;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showingx{
+    opacity: 1;
+    z-index: 2;
+}
+
+/*#slideshowIndex{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /*Slideshow index end*/
 
@@ -470,6 +496,7 @@ p{
 }
 #contentIndex {
     margin-top: 0px;
+
 }
 #aboutus{
     margin-top: 0;

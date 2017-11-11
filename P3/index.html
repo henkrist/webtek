@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="a page about SportsCenteret">
+        <meta name="description" content="a page about SportsCenteret"> 
         <title>Sportscenteret</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Link til favicon / ikke ferdig-->
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!--link til CSS / ikke -->
@@ -48,18 +48,14 @@
             </ul>
         </header>
 
-        <div class="w3-content">
-            <img class="mySlides" src="img/bilde3.jpg" style="width:100%" alt="Svalbard">
-            <img class="mySlides" src="img/bilde2.jpg" style="width:100%" alt="Sportscenteret">
-            <img class="mySlides" src="img/bilde1.jpg" style="width:100%" alt="Butikken">
+        <div id="slideshowIndex">
+            <ul id="slidesx">
+            <li class="slidex showingx"><img src="img/bilde3.jpg" alt="Svalbard"></li>
+            <li class="slidex"><img src="img/bilde2.jpg" alt="Svalbard"></li>
+            <li class="slidex"><img src="img/bilde1.jpg" alt="Svalbard"></li>
+            </ul>
         </div>
-        
-        <!--
-        <canvas id='showCanvas'>
-			Canvas Not Supported
-		</canvas>
-        -->
-        
+            
         <!-- Dette er veldig ikke lov, men får ikke til en annen metode. Se smoothScroll.js for annen code -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
         <script>
@@ -70,23 +66,7 @@
                 }, 2000);
             });
         });
-        </script>
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";  
-            }
-    
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 9000); 
-        </script>  
+        </script> 
         
         <div id="contentIndex" class="content">
            
