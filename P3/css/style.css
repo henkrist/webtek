@@ -23,6 +23,7 @@ h1{
 }
 
 /*Loader*/
+/*Hele linja til loaderen*/
 #all_loader{
     position: fixed;
     top: 0;
@@ -34,6 +35,7 @@ h1{
     z-index: 1000;
     transition: opacity 0.2s;
 }
+/*setter style på loaderen*/
 #loader {
     position: absolute;
     left: 50%;
@@ -47,9 +49,11 @@ h1{
     border-top: 16px solid #1c3f26;
     width: 120px;
     height: 120px;
+    /*kaller opp animasjon*/
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
+/*Spinneanimasjom til preloader*/
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(480deg); }
@@ -214,6 +218,7 @@ footer {
 #contact_h1 h1{
     max-width: 100%;
 }
+/*setter styling på kartet*/
 #map {
     height: 400px;
     width: 100%;
@@ -225,6 +230,7 @@ footer {
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
+/*setter styling på inputen til formen, samt selve formen til slutt*/
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -278,6 +284,7 @@ select{
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
+/*gjemmer den dustete linja i formen*/
 fieldset{
     border-style: hidden;
 }
@@ -291,6 +298,7 @@ legend{
     margin-bottom: 20px;
     font-size: 20px
 }
+/*styler teskten til kontakt*/
 #intro_contact{
     width: 30%;
     float:left;
@@ -305,6 +313,7 @@ legend{
     display: table;
     clear: both;
 }
+/*styler info-boksene*/
 #adress,#hours,#phone{
     border-radius: 5px;
     padding: 10px;
@@ -336,13 +345,6 @@ legend{
     font-weight: 700;
     text-align: center;
 }
-@media screen and (max-width: 600px){
-    #adress,#hours,#phone{width: 100%;}
-    #hours{margin-top: 40px}
-    #phone{margin-top: 10px}
-    #intro_contact{width: 100%;}
-    .intro_content{float:left; width: 100%;}
-}
 #map_icon{
     height: 50px;
     width: 40px;
@@ -367,6 +369,16 @@ legend{
     margin-bottom: 13px;
     align-self: center;
 }
+
+/*Gjør siden nogen lunde adaptiv ved forskjellige skjermstørrelser*/
+@media screen and (max-width: 600px){
+    #adress,#hours,#phone{width: 100%;}
+    #hours{margin-top: 40px}
+    #phone{margin-top: 10px}
+    #intro_contact{width: 100%;}
+    .intro_content{float:left; width: 100%;}
+}
+
 /*CONTACT END*/
 
 
@@ -394,6 +406,7 @@ legend{
   float:left;
   margin-bottom: 80px;
 }*/
+
 #info_img{
     width: 100%;
 }
@@ -455,6 +468,14 @@ p{
     max-width: 600px;
     margin:auto;
 }
+#contentIndex {
+    margin-top: 0px;
+}
+#aboutus{
+    margin-top: 0;
+}
+
+/*styler pilen som flytter siden ned*/
 #arrow_pos{
     align-items: center;
     position: relative;
@@ -463,11 +484,8 @@ p{
     justify-content: center;
     margin-bottom: 0;
 }
-
-#contentIndex {
-    margin-top: 0px;
-}
-i {
+/*Lager pila*/
+i{
     border: solid white;
     border-width: 0 5px 5px 0;
     border-radius: 4px;
@@ -478,9 +496,7 @@ i {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-#aboutus{
-    margin-top: 0;
-}
+/*Får den til å gå opp og ned når man hovrer.*/
 #arrow_pos:hover{
     animation-play-state:running;
     -webkit-animation: jump 2s linear infinite;
