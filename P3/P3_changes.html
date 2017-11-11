@@ -13,6 +13,8 @@
               padding: 30px;
               background-color:#e5e5e5;
               text-align: justify;
+              border-radius: 5px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
           h1 {
               font-size: 2.2em;
@@ -20,7 +22,6 @@
           }
           h2 {
               font-size: 1.5em;
-              text-decoration: underline;
             }
 
           h3 {
@@ -62,7 +63,7 @@
 
           p, ul, h1, h2, h3, h4 {
               color: black;
-              font-family: "average", sans-serif;
+              font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
           }
 
             ul {
@@ -81,7 +82,7 @@
     <body>
         <article>
             <header>
-                <h1>P3 Changes</h1>
+                <h1>P3 - Changes</h1>
                 <h2>Hilmar, Henrik, Ida og Magnus (HHIM)</h2>
                 <h3>November 9, 2017</h3>
             </header>
@@ -91,7 +92,7 @@
                 
                 <p>Hilmar utførte språkapplikasjonen ved å bruke HTML Web lagring, etter tips fra veileder. Hilmar lagde også navigajsonsbaren slik som vi hadde designet den i P2 ved hjelp av JavaScript.</p>
                 
-                <p>Henrik lagde kartapplikasjonen og kontaktsjemaet som skulle være på "kontakt"-siden ut i fra kravene vi hadde satt i P2. Henrik lagde også preloader og smoothScroll, dette var ikke satt som minimumkrav men vi tok de med for å gi siden et mer helhetlig utrykk. </p>
+                <p>Henrik lagde kartapplikasjonen og kontaktsjemaet som skulle være på "kontakt"-siden ut i fra kravene vi hadde satt i P2. Kartet er tatt utgangspunkt fra Google sin kode, men tilpasset til vårt bruk. Henrik lagde også preloader og smoothScroll, dette var ikke satt som minimumkrav men vi tok de med for å gi siden et mer helhetlig utrykk. </p>
                 
                 <p>Magnus lagde Åpningstidapplikasjoenen etter kravene som var satt i P2. </p>
                 
@@ -99,16 +100,15 @@
                 
                 <h2>Hvem jobbet med hva</h2>
                 <ul>
-                    <li>Header(logo og knapper) - Ida lagde ny logo inspirert av logoen på den gamle siden. Henrik lagde kontaktknappen som linker til kontaktsiden. Hilmar lagde navigasjonsbaren. </li>
                     <li>index.html - Ida lagde slideshowet på siden. Henrik lagde pilen som starter smoothScroll og blar brukeren automatisk ned til teksten nederst på siden. </li>
-                    <li>partnesrs.html - Hilmar lagde siden. </li>
+                    <li>partners.html - Hilmar lagde siden. </li>
                     <li>supplies.html - Hilmar lagde siden.</li>
                     <li>weapons.html - Ida lagde siden. Hilmar gjorde den kompatibel for språk.</li>
-                    <li>contact.html - Henrik lagde kart og kontaktsjemaet på siden og resten av siden.</li>
+                    <li>contact.html - Henrik lagde kart og kontaktsjemaet, samt iconer og styling.</li>
                     <li>history.html - Magnus lagde siden. </li>
                     <li>info_svalbard.html - Magnus lagde siden.</li>
                     <li>style.css - Alle jobbet med style.css. </li>
-                    <li>contactScheme.js - Henrik lagde kontaktsjemaet.</li>
+                    <li>contactScheme.js - Henrik lagde validering av kontaktskjemaet.</li>
                     <li>language.js - Hilmar lagde språkvelgeren. </li>
                     <li>map.js - Henrik implementerte kartfunksjonen. </li>
                     <li>navbar.js - Hilmar skrev koden for navigasjonsbaren.</li>
@@ -119,10 +119,10 @@
                 </ul>
                 
                 <h2>Moduleritet</h2>
-                <p>Alle JavaScript-elemetene som er i headeren er modulære. Navigasjonsbaren, åpninstid og språkvelger er de tre modulene vi har i headeren som er modulære. De er inkludert på alle sidene siden de er i headeren. Slideshowapplikasjonen som er brukt på index.html er også modulær og kan også inkluderes på andre sider om det er ønskelig. Preloaderen kjører før alle sidene vises og at sidene skal lastes helt ned før den vises. </p>
+                <p>Alle JavaScript-elemetene som er i headeren er modulære. Navigasjonsbaren, om butikken er åpen og språkvelger er de tre modulene vi har i headeren som er modulære. De er inkludert på alle sidene siden de er i headeren. Slideshowapplikasjonen som er brukt på index.html er også modulær og kan også inkluderes på andre sider om det er ønskelig. Preloaderen kjører før alle sidene vises og at sidene skal lastes helt ned før den vises. </p>
                 
                 <h2>Endringer i design</h2>
-                <p>Vi har holdt oss rimelig sann i forhold til slik vi designet siden i P2. I header har knappene fått litt rundere kanter for å gjøre det enklere å forstå at det er knapper. Vi har også lagt språkvelgeren under logoen, den hadde vi ikke lagt inn i P2. Den holder samme språk på tvers av sidene. Vi har også gjort headeren responsiv for at den skal være mer lesbar på mobiler og mindre skjermer. </p>
+                <p>Vi har holdt oss rimelig sann i forhold til slik vi designet siden i P2. I header har knappene fått litt rundere kanter for å gjøre det enklere å forstå at det er knapper. Dette er også implementert noen andre steder, som f.eks applikasjonenen funnet på kontaktsiden. Vi har også lagt språkvelgeren under logoen, den hadde vi ikke lagt inn i P2. Den holder samme språk på tvers av sidene. Vi har også gjort headeren responsiv for at den skal være mer lesbar på mobiler og mindre skjermer. </p>
                 
                 <p>For innholdet på sidene har vi valgt å gjøre det mye smalere for at lesbarheten skal bli bedre, og for at innholdet ikke skal virke så strekt. Bare kontaktsiden har samme bredde som headeren, vi valgte å beholde bredden på denne siden fordi det er mye innhold på siden. </p>
                 

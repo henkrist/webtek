@@ -12,6 +12,7 @@
     </head>
     <body onload="setTimer();initLang();">
         
+        <!--> Henter preloader </-->
         <div id="all_loader">
             <div id="loader">
             </div>
@@ -53,9 +54,10 @@
         <div class="content">
 
 
-            <!-- Insert map function here -->
+            <!-- Henter kartfunksjonen fra map.js-->
             <div id="map"></div>
-
+            
+            <!-- Setter overskrift -->
             <div id="contact_h1">
                 <h1 class="no">Kontakt oss!</h1>
                 <h1 class="en">Contact us!</h1>
@@ -75,7 +77,7 @@
                 </div>
             </div>
 
-            <!-- Hours box -->
+            <!-- Tabell til åpningstider -->
             <div id="hours">
                 <img id="clock_icon" alt="clock_icon" class="image" src="img/clock_icon.png">
                 <div id="hours_content">
@@ -114,7 +116,7 @@
                 </div>
             </div>
 
-            <!-- Adress box -->
+            <!-- Boks til adresse -->
             <div id="adress">
                 <img id="map_icon" alt="map_icon" class="image" src="img/map_point.png">
                 <p id="adress_content">Sportscenteret Svalbard <br> Elvesletta Nord Pb 526 <br> 9171 Longyearbyen
@@ -125,8 +127,7 @@
                 <p id="phone_content">+47 95027048</p>
             </div>
 
-            <!-- Contact scheme -->
-
+            <!-- Kontaktskjema. For øyeblikket sender ikke kontaktskjemaet ut noe info til noe. -->
             <form  id="contact_form" name="form1" onsubmit="return validateForm();" >
                   <fieldset>
                      <legend class="en" >Send us an email:</legend>
@@ -194,67 +195,6 @@
                     </fieldset>
             </form>
             
-            <!-- Alternativ formstruktur
-
-            <form class="en"  id="contact_form" name="form1" onsubmit="return validateForm();" >
-                   <legend>Send us an email:</legend>
-                    <div class ="row" id="name">
-                        <label for="fname">Full name</label><br>
-                        <input type="text" id="fname" class="input" name="name" placeholder="Your name..." size="30" required>
-                    </div>
-                    <label for="email">Email</label><br>
-                    <div class="row" id="email">
-                        <input type="email" class="input" name="email" placeholder="Your email..." required>
-                    </div>
-                    <label for="subject">Subject</label><br>
-                    <select id="subject" name="subject">
-                        <option value="" disabled selected>Select your inquiry</option>
-                        <option value="order">Ordering a product</option>
-                        <option value="complaint">Warranty and other complaints</option>
-                        <option value="rent">Renting a weapon</option>
-                        <option value="other">Other</option>
-                    </select><br>
-                    
-                    <label for="message">What's up?</label>
-                    <div class="row">
-                        <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Type your message here..."></textarea>
-                    </div>
-                    <input id="submit_button" type="submit" value="Send email"/>
-                    <input id="reset_button" type="reset" value="Reset fields"/>
-            </form>
-            
-            
-            <form class="no"  id="contact_form" name="form1" onsubmit="return validateForm();" >
-                   <legend>Send oss en mail:</legend>
-                    <div class ="row" id="name">
-                        <label for="fname">Fullt navn</label><br>
-                        <input type="text" id="fname" class="input" name="name" placeholder="Ditt navn..." size="30" required>
-                    </div>
-                    <label for="email">Email</label><br>
-                    <div class="row" id="email">
-                        <input type="email" class="input" name="email" placeholder="Din email..." required>
-                    </div>
-                    
-                    <label for="subject">Emne</label><br>
-                    <select id="subject" name="subject">
-                    <option value="" disabled selected>Velg hendvendelse</option>
-                    <option value="order">Bestille et produkt</option>
-                    <option value="complaint">Garanti og andre klager</option>
-                    <option value="rent">Leie våpen</option>
-                    <option value="other">Annet</option>
-                    </select><br>
-                    
-                    <label for="message">Hva skjer?</label>
-                    <div class="row">
-                        <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Skriv din melding her..."></textarea>
-                    </div>
-                    <input id="submit_button" type="submit" value="Send mail" disabled/>
-                    <input id="reset_button" type="reset" value="Resett feltene"/>
-            </form>
-
-            -->
-
-
         </div> <!-- Content -->
 
         <footer>
@@ -265,12 +205,15 @@
         <script type="text/javascript" src="js/map.js"> </script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfANh0pOzgZE2_7V08uR-Zsx8lq_O7w1s&callback=initMap"></script>
+        <!-- Skript til validering av skjemaet -->
         <script type="text/javascript" src="js/contactScheme.js"></script>
-
         <!--Skript for nav.bar. Denne må med på alle sider!! -->
         <script type="text/javascript" src="js/navbar.js"></script>
+        <!--Skript til språk-->
         <script type="text/javascript" src="js/language.js"></script>
+        <!--Skript til åpningstider -->
         <script type="text/javascript" src="js/openingHours.js"></script>
+        <!--Skript til preloader-->
         <script type="text/javascript" src="js/preload.js"></script>
     </body>
 </html>
