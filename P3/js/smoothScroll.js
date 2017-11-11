@@ -1,5 +1,6 @@
 
 /* Denne funksjonen funker ikke, og jeg fikk ikke tid til å få den til å funke :) */
+
 /*function scrollTo(document.body, document.getElementById("aboutus").offsetTop, 600) {
     if (duration <= 0) return;
     var difference = to - element.scrollTop;
