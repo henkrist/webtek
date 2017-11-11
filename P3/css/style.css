@@ -286,7 +286,7 @@ input[type=reset]:hover {
     background-color: #734f1e;
     transition: all 0.3s ease 0s;
 }
-#subject{
+select{
     width:200px;
 }
 #contact_form {

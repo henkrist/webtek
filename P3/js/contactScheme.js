@@ -2,7 +2,7 @@
 function validateForm(){
     var formInsert == document.forms["contact_from"].value;
     
-    if (formInsert["fname"].value == "" || formInsert["fname"].value == " ") {
+    if (formInsert["name"].value == "" || formInsert["name"].value == " ") {
         alert("Name has to be filled out");
         return false;
     }
