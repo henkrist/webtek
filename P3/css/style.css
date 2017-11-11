@@ -22,6 +22,7 @@ h1{
     margin: 20px auto;
 }
 
+/*Loader*/
 #all_loader{
     position: fixed;
     top: 0;
@@ -49,16 +50,15 @@ h1{
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
-
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(480deg); }
 }
-
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(480deg); }
 }
+/*End Loader*/
 
 
 /*  Header */
@@ -70,7 +70,6 @@ header{
     height: auto;
     margin-bottom: 0px;
 }
-
 #language_selector{
     position: absolute;
 }
@@ -84,7 +83,6 @@ header{
     /*background-color:#b2722a;*/
     transition: all 0.3s ease 0s;
 }
-
 #language_selector img{
     opacity: 0.3;
     padding: 0px;
@@ -95,7 +93,6 @@ header{
     opacity: 1;
     transition: all 0.3s ease 0s;
 }
-
 /*Style for kontakt-knappen*/
 #contact_button{
     background-color:  #b2722a;
@@ -105,7 +102,6 @@ header{
     cursor: pointer;
     box-shadow: 0px 1px 1px #888888;
 }
-
 /*Mer styling av kontaktknappen*/
 #contact_button a{
     padding: 10px 20px;
@@ -115,17 +111,14 @@ header{
     color: #f3f3f5;
     transition: all 0.3s ease 0s;
 }
-
 /*Endrer fargen på skriften i kontaktknappen når man hovrer over den.*/
 #contact_button a:hover{
     color:#1c3f26;
 }
-
 /*Setter størrelsen på logoen. */
 #logo{
     width: 35%;
 }
-
 /* Styling for timeDiv */
 #timeDiv{
   text-transform: uppercase;
@@ -135,8 +128,7 @@ header{
 }
 
 
-/*                      Nav.bar                   */
-
+/*---------------------Nav.bar---------------*/
 /*Fjerner alle predefinerte instillinger på listen*/
 ul.nav{
     width: 100%;
@@ -145,30 +137,25 @@ ul.nav{
     margin: 0px;
     padding: 0px;
 }
-
 /*Bakgrunnsfarge på nav.bar */
 ul.nav li{
     background-color: #1c3f26;
     float: right;
 }
-
 /*Endre musikonet til å immitere en link*/
 #li_1,#li_2{
     cursor:pointer;
     margin-left: 5px;
     border-radius: 4px 4px 0px 0px;
 }
-
 /*Endre fargen til under nav.bar til orange*/
 ul#under_nav_1 li, ul#under_nav_2 li {
     background-color: #b2722a;
 }
-
 /*Endre fargen på skriften i undernav.bar til grå når man har musa over den.*/
 ul#under_nav_1 li a:hover, ul#under_nav_2 li a:hover{
     color: #1c3f26;
 }
-
 /*Link i li elementene*/
 ul.nav li a{
     display: block;
@@ -178,20 +165,17 @@ ul.nav li a{
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-
 /*Skjuler de to undermenyene*/
 #under_nav_1, #under_nav_2{
     display: none;
     position:absolute;
     margin-left: -20%;
 }
-
 /*endrer hoverfargen*/
 ul.nav li a:hover {
     background-color: #b2722a;
     border-radius: 4px 4px 0px 0px;
 }
-
 /*Dette gjør nav.bar og resten av siden responsive. Setter at den går over til mobil-modus når skjermstørrelsen er mindre enn 600px. */
 @media screen and (max-width: 600px){
     ul.nav li {float: none;}
@@ -202,10 +186,7 @@ ul.nav li a:hover {
     #under_nav_1, #under_nav_2{margin-top: 5px;}
     #timeDiv{width: 100%; text-align: center;}
 }
-
 /*Nav.bar slutt*/
-
-
 
 /*Class Content: Delen på siden hvor alt innholdet skal.*/
 .content{
@@ -213,9 +194,6 @@ ul.nav li a:hover {
     height: auto;
     margin: 50px auto 50px auto;
 }
-
-
-
 
 /*Footer*/
 footer {
@@ -226,17 +204,15 @@ footer {
     background-color: #efefef;
     text-align: center;
     font-size: 0.7em;
-    padding: 4px;
-    
+    padding: 4px; 
 }
 
+/*---------------PAGES--------------*/
 
 /*CONTACT PAGE */
-
 #contact_h1 h1{
     max-width: 100%;
 }
-
 #map {
     height: 400px;
     width: 100%;
@@ -248,7 +224,6 @@ footer {
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
-
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -259,7 +234,6 @@ input[type=text], input[type=email], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
-
 input[type=submit] {
     background-color: #b2722a;
     color: white;
@@ -306,7 +280,6 @@ select{
 fieldset{
     border-style: hidden;
 }
-
 legend{
     width:25%;
     margin-right:0.5em;
@@ -317,24 +290,20 @@ legend{
     margin-bottom: 20px;
     font-size: 20px
 }
-
 #intro_contact{
     width: 30%;
     float:left;
     margin: 4px;
     margin-bottom: 20px;
 }
-
 #contact_img{
     margin-left: 10px;
 }
-
 .row_contact:after {
     content: "";
     display: table;
     clear: both;
 }
-
 #adress,#hours,#phone{
     border-radius: 5px;
     padding: 10px;
@@ -342,20 +311,12 @@ legend{
     position: relative;
     bottom: 50px;
     border-radius: 5px;
-    /*
-    background-color: #f2f2f2;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
-    border-color: #b2722a;
-    */
 }
 #adress{
     float:right;
     line-height: 110%;
     width:200px;
     margin-top: 5px;
-
 }
 #hours{
     left:5px;
@@ -370,12 +331,10 @@ legend{
     margin-top: 5px;
     float:right;
 }
-
 #adress_content, #hours_content, #phone_content{
     font-weight: 700;
     text-align: center;
 }
-
 @media screen and (max-width: 600px){
     #adress,#hours,#phone{width: 100%;}
     #hours{margin-top: 40px}
@@ -407,10 +366,10 @@ legend{
     margin-bottom: 13px;
     align-self: center;
 }
+/*CONTACT END*/
 
 
 /*HISTORY PAGE*/
-
 #pictures_history{
   margin: 20px auto;
   max-width: 600px;
@@ -418,6 +377,8 @@ legend{
 #pictures_history img{
   width: 100%;
 }
+/*HISTORY END*/
+
 
 /*Info_Svalbard PAGE*/
 /*#header_info{
@@ -444,7 +405,6 @@ legend{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 /*Info_Svalbard end*/
 
 /*SUPPLIES PAGE*/
@@ -482,11 +442,11 @@ legend{
 
 /*Slideshow index end*/
 
+/*Index*/
 #contact_hyper{
     color: #b2722a;
     text-decoration: none;
 }
-
 #tester{
     padding-top: 400px;
 }
@@ -494,17 +454,6 @@ p{
     max-width: 600px;
     margin:auto;
 }
-/*
-#arrow_pos{
-    margin-left: 49%;
-    margin-right: 50%;
-    margin-bottom: 20px;
-    position: relative;
-    padding: 15px;
-    width:100%;
-    box-sizing: border-box;
-}*/
-
 #arrow_pos{
     align-items: center;
     position: relative;
@@ -517,20 +466,17 @@ p{
 #contentIndex {
     margin-top: 0px;
 }
-
 i {
     border: solid white;
     border-width: 0 5px 5px 0;
     border-radius: 4px;
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
 }
-
 #down{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-
 #aboutus{
     margin-top: 0;
 }
@@ -554,7 +500,7 @@ i:hover{
     75%  {transform: translateY(2px)}
     100% {transform: translateY(0)}
 }
-
+/*Index end*/
 
 
 /*Partners start*/
@@ -583,10 +529,7 @@ i:hover{
 
 
 /*Weapons start*/
-
 #weaponsP p{
     margin-top: 20px;
 }
-
-
 /*Weapons end*/
