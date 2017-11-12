@@ -599,6 +599,7 @@ i:hover{
     color: black;
     font-size: 20px;
     transition: all 0.3s ease 0s;
+    margin-bottom: 10px;
 }
 .partners_a:hover{
     color: #b2722a;
