@@ -601,7 +601,7 @@ i:hover{
 
 /*Weapons start*/
 
-#weaponPics {
+.weaponPics {
     align-items: center;
     position: relative;
     width: 52%;
