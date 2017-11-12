@@ -434,6 +434,11 @@ legend{
 
 #info_img{
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 #info_img_div{
     max-width: 600px;
@@ -605,6 +610,11 @@ i:hover{
 
 .weaponPics{
     width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    margin:5px;
 }
 #weaponsP{
     max-width: 600px;
