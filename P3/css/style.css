@@ -485,7 +485,6 @@ legend{
     justify-content: center;
 }
 .slideshow_index img{
-
     position:absolute; 
     animation:run_slideshow_index 20s infinite;
     opacity:0; 
