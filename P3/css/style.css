@@ -489,9 +489,6 @@ legend{
     position:absolute; 
     animation:run_slideshow_index 20s infinite;
     opacity:0; 
-    position:absolute;
-    animation:fling-minislide 20s infinite;
-    opacity:0;
     width: 100%;
     height: 90%;
     border-radius: 5px;
