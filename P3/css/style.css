@@ -70,6 +70,7 @@ h1{
 header{
     width: 80%;
     padding: 1% 10% 0% 10%;
+    /*padding-bottom: 38px;*/
     background-color:#f3f3f5;
     height: auto;
     margin-bottom: 0px;
@@ -488,28 +489,37 @@ legend{
 }
 */
 
-.slideshow {
-    width:100%;
+.slideshow_index {
+    width:90%;
     height:600px; 
     overflow:hidden;
     position:relative; 
 }
-.slideshow img{
+#slides_index{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+.slideshow_index img{
     position:absolute; 
     animation:fling-minislide 20s infinite;
     opacity:0; 
     width: 100%;
-    height: auto;
+    height: 90%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 @keyframes fling-minislide {
     25%{opacity:1;} 
     40%{opacity:0;}
 } 
-.slideshow img:nth-child(4){animation-delay:0s;}
-.slideshow img:nth-child(3){animation-delay:5s;}
-.slideshow img:nth-child(2){animation-delay:10s;}
-.slideshow img:nth-child(1){animation-delay:15s;}
+.slideshow_index img:nth-child(4){animation-delay:0s;}
+.slideshow_index img:nth-child(3){animation-delay:5s;}
+.slideshow_index img:nth-child(2){animation-delay:10s;}
+.slideshow_index img:nth-child(1){animation-delay:15s;}
 
 
 /*Slideshow index end*/
@@ -532,13 +542,15 @@ p{
 }
 #aboutus{
     margin-top: 0;
+    position: relative;
+    top: -50px
 }
 
 /*styler pilen som flytter siden ned*/
 #arrow_pos{
     align-items: center;
     position: relative;
-    top: -150px;
+    top: -180px;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
