@@ -1,4 +1,4 @@
-//slideshow script index
+// we ended up not using this code. It is explained in P4. 
 
 //array of image paths
 var imagePaths = [
