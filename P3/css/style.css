@@ -398,17 +398,17 @@ legend{
 }
 .slideshow_history img{
     position:absolute; 
-    animation:fling-minislide 20s infinite;
+    animation:run_slideshow_history 20s infinite;
     opacity:0; 
     width: 100%;
-    height: 90%;
+    height: 80%;
     border-radius: 5px;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
 
-@keyframes fling-minislide {
+@keyframes run_slideshow_history {
     25%{opacity:1;} 
     40%{opacity:0;}
 } 
@@ -428,10 +428,6 @@ legend{
 /*HISTORY END*/
 
 
-<<<<<<< HEAD
-/*Info_Svalbard PAGE*/
-=======
->>>>>>> 12161a397b89ac1e1e2398d543862e1f5e227f2c
 
 #info_img{
     width: 100%;
@@ -487,9 +483,15 @@ legend{
     justify-content: center;
 }
 .slideshow_index img{
+<<<<<<< HEAD
+    position:absolute; 
+    animation:run_slideshow_index 20s infinite;
+    opacity:0; 
+=======
     position:absolute;
     animation:fling-minislide 20s infinite;
     opacity:0;
+>>>>>>> 8536b5a58f1b4ca246008b7c9ce45fe3d7958024
     width: 100%;
     height: 90%;
     border-radius: 5px;
@@ -498,8 +500,13 @@ legend{
     box-shadow: 0 10px 6px -6px #777;
 }
 
+<<<<<<< HEAD
+@keyframes run_slideshow_index {
+    25%{opacity:1;} 
+=======
 @keyframes fling-minislide {
     25%{opacity:1;}
+>>>>>>> 8536b5a58f1b4ca246008b7c9ce45fe3d7958024
     40%{opacity:0;}
 }
 .slideshow_index img:nth-child(4){animation-delay:0s;}
