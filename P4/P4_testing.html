@@ -143,7 +143,7 @@
                         Vi separerte derfor knappene slik at det kom mer tydelig frem at det var to av dem.</li>
                     </ul>
 
-                <p>I tillegg til disse tilbakemedlingene sitter vi også med egne tanker om sluttproduket, og eventuelt hva vi skulle ønske vi endret på. Her skal vi ta for oss et par av disse:
+                <p>I tillegg til disse tilbakemedlingene sitter vi også med egne tanker om sluttproduket, og eventuelt hva vi skulle ønske vi endret på. Her skal vi ta for oss et par av disse:</p>
                 	<ul>
                 		<li> Styling av "Butikk åpen/lukket". Akkurat nå er den bare en tekst med en gitt farge. Da den er en knapp, skulle vi gjerne gjort et mer klart at det er en knapp. Kanskje med en boks eller lignende.</li>
                 		<li> Vi har prøvd å gjøre siden så responsiv som over hode mulig. Dette kan sees i de aller fleste sidene og i navigasjonsbaren, men i akkurat index.html og history.html har vi valgt å bruke det slideshow. Dette har en noe negativ innvirking når du gjør siden mindre, ved at teskten blir dyttet realtivt langt ned. Dette er trolig på grunn av at alle elementene har en relativ posisjon, og når bildene blir mindre, klarer ikke teksten å følge helt med. Dette er noe vi har brukt mye tid på å prøve å fikse, men ikke klart å finne en løsning. </li>
@@ -151,13 +151,10 @@
                 		<li>Da vi flyttet "Om oss" til nederst på forsiden, så fant vi ut det var best å ha en pil som viste til innholdet under bildene. For å få denne knappen til å gå ned til innholdet ble det prøvd mange forkskjellige strategier, noen penere enn andre. I smoothScroll.js kan man se et par av forsøkene, men da ingen av de så til å funke og mangel på tid, valgte jeg (Henrik) å ty til JQuery. Dette er ikke helt innafor, men vi mener at det var nødvendig i den hensikt å oppnå ønsket resultat. </li>
                     	<li>Kartfunkjsonen på kontaktsiden er nå et kart. Vi ønsket at dette skulle være et sattelittbilde som standard i den hensikt å kunne se omgivelsene rundt butikken bedre, men da dette er en applikasjon lånt av Google, var det ikke mye vi kunne gjøre med det.  </li>
                     	<li>Per nå sender ikke kontaktskjemaet ut noe av inputten fra brukeren. Det var ønskelig å sette få denne informasjonen ut til et tekstdokument, som var forsøkt i process.asp, men vi fikk det aldri til å fungere ordentlig. Det er absolutt en funskjon som hadde vært nyttig å ha til vidre utvikling. </li>
-                	</ul>
-                </p>
-                kommentere at vi ønsket å bruke canvas og js til slideshowet, men at det ikke fungerte da vi lastet opp på server. Derfor kjører slideshowet nå kun på CSS.
-                kommentere kontaktskjema som ikke sender noe
-                kommentere footeren - fjerna fra index.html
-                kommenter at vi brukte lorem ipsum på partners.html da vi ikke fikk tekst i tide.
-
+                        <li>Videre laget vi en javascriptfil (slideshow.js) som skulle kjøre slideshow på index.html ved bruk av canvas. Dett fungerte veldig bra i editor, men da vi lastet prosjektet opp på serveren, fikk vi den ikke til å fungere. Vi fant aldri grunnen til dette. Vi valgte derfor å bruke CSS til å lage hele slideshowet i stedet for javascript. Vi har latt slideshow.js være igjen i prosjektet (uten å linke til den) selv om vi ikke bruker den for å vise hva som var tenkt. 
+                        <li>Vi ønsker også å nevne at vi har tatt i bruk plassholdertekst på partners.html da vi ikke fikk innhold til tekst i tide.</li>
+                    </ul>               
+                
                 <h2>Refleksjoner</h2>
                 <p>Vi har lært en hel del av arbeidet med prosjektet. Det er naturlig å nevne at det er gjennom denne prosessen at kreativiteten i forhold til HTML, CSS og JavaScript virkelig har fått blomstre. </p>
                 <p>Etter hvert i selve kodingen kom det frem hvor viktig det var med tydelig definerte krav fra klient og retningslinjer for design. Der vi hadde uklarheter i forhold til innhold, skapte det tidkrevende arbeid i form av omstruktureringer. I tillegg til at vi definerte funksjonaliteten og utseende til nettsiden i de tidlige fasene – da vi ikke hadde tilstrekkelig med kunnskap om hvor mye arbeid de forskjellige tingene ville bestå av. Når vi da prøvde å følge den tentative tidsplanen måtte vi gjøre endringer her fortløpende. I tillegg til at vi lærte underveis at når ting ikke virker i koden kan det ta mye tid for å få det slik man ønsker (selv om man skulle tro at det var en ”quick-fix”). </p>
