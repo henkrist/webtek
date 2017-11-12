@@ -493,6 +493,7 @@ legend{
     height:80%; 
     overflow:hidden; 
     position:relative; 
+    margin-top: 38px;
 }
 .slideshow img{ 
     position:absolute; 
