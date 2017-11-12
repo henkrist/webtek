@@ -387,10 +387,11 @@ legend{
 
 .slideshow_history {
     width: 60%;
-    height:600px;
+    height:800px;
     overflow:hidden;
     position:relative;
     margin-top: 20px;
+    margin-bottom: -30%;
 }
 #slides_history{
     display: flex;
@@ -401,7 +402,7 @@ legend{
     animation:run_slideshow_history 20s infinite;
     opacity:0;
     width: 100%;
-    height: 80%;
+    height: auto;
     border-radius: 5px;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
@@ -478,6 +479,7 @@ legend{
     height:600px;
     overflow:hidden;
     position:relative;
+    margin-bottom: auto;
 }
 #slides_index{
     margin-top: 38px;
@@ -489,7 +491,7 @@ legend{
     animation:run_slideshow_index 20s infinite;
     opacity:0;
     width: 100%;
-    height: 90%;
+    height: auto;
     border-radius: 5px;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
